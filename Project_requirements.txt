@@ -1,0 +1,22 @@
+General:
+- Use at least 2 open data sets
+	- Must not have RDF version already available
+	- Examples here
+- Must be able to define / answer 10 questions using data from both sets
+- Create an OWL ontology to represent the relevant terms and concepts spanning both data sets
+- Uplift the data instances into our model using Juma / R2RML
+- Build a basic query interface for a set of SPARQL queries based on the use case questions
+
+Ontology Desgin:
+- Must have at least 10 classes
+- Must have at least 10 properties
+- Provide cardinalities for properties
+- Must use symmetric, inverse, and transitive properties
+- Can reuse from other ontologies
+
+Deliverables:
+- OWL ontology model
+- Documented R2RML mappings
+- Documented SPARQL queries
+- Application code for query interface
+- Original and uplifted datasets
