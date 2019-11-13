@@ -1,0 +1,4 @@
+jupyter>=1.0.
+pandas>=0.25.
+numpy>=1.17.
+matplotlib>=3.1.
