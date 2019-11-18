@@ -1,0 +1,50 @@
+<http://www.example.org/qualify/4967>
+        a                            <http://example.org/csv/Record> ;
+        <http://example.org/csv/constructorid>
+                "1" ;
+        <http://example.org/csv/driverid>
+                "18" ;
+        <http://example.org/csv/number>
+                "3" ;
+        <http://example.org/csv/position>
+                "2" ;
+        <http://example.org/csv/q1>  "01:26.8" ;
+        <http://example.org/csv/q3>  "01:25.1" ;
+        <http://example.org/csv/qualifyid>
+                "4967" ;
+        <http://example.org/csv/raceid>
+                "860" .
+
+<http://www.example.org/constructor/24932>
+        a                              <http://example.org/csv/Record> ;
+        <http://example.org/csv/constructorid>
+                "1" ;
+        <http://example.org/csv/constructorstandingsid>
+                "24932" ;
+        <http://example.org/csv/points>
+                40 ;
+        <http://example.org/csv/position>
+                "1" ;
+        <http://example.org/csv/positiontext>
+                "1" ;
+        <http://example.org/csv/raceid>
+                "860" ;
+        <http://example.org/csv/wins>  "1" .
+
+<http://www.example.org/qualify/4966>
+        a                            <http://example.org/csv/Record> ;
+        <http://example.org/csv/constructorid>
+                "1" ;
+        <http://example.org/csv/driverid>
+                "1" ;
+        <http://example.org/csv/number>
+                "4" ;
+        <http://example.org/csv/position>
+                "1" ;
+        <http://example.org/csv/q1>  "01:26.8" ;
+        <http://example.org/csv/q2>  "01:25.6" ;
+        <http://example.org/csv/q3>  "01:24.9" ;
+        <http://example.org/csv/qualifyid>
+                "4966" ;
+        <http://example.org/csv/raceid>
+                "860" .
