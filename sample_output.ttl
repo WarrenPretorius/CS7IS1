@@ -10,7 +10,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:40.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:40.7" .
 
 <http://www.example.org/status/84>
         a                               <http://example.org/f1/Status> ;
@@ -25,19 +25,19 @@
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/18> ;
         <http://example.org/f1/fastestlap>
-                56 ;
+                "56" ;
         <http://example.org/f1/fastestlapspeed>
-                "214.053"^^<http://www.w3.org/2001/XMLSchema#float> ;
+                "214.053" ;
         <http://example.org/f1/fastestlaptime>
-                "01:29.2"^^<http://www.w3.org/2001/XMLSchema#time> ;
+                "01:29.2" ;
         <http://example.org/f1/grid>    2 ;
         <http://example.org/f1/laps>    58 ;
         <http://example.org/f1/milliseconds>
-                5649565 ;
-        <http://example.org/f1/number>  3 ;
+                "5649565" ;
+        <http://example.org/f1/number>  "3" ;
         <http://example.org/f1/points>  25 ;
         <http://example.org/f1/position>
-                1 ;
+                "1" ;
         <http://example.org/f1/positionorder>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
@@ -46,7 +46,7 @@
                 21232 ;
         <http://example.org/f1/statusid>
                 <http://www.example.org/status/1> ;
-        <http://example.org/f1/time>    "34:09.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "34:09.6" .
 
 <http://www.example.org/lapTimes/77>
         a                               <http://example.org/f1/LapTimes> ;
@@ -60,7 +60,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.8" .
 
 <http://www.example.org/status/63>
         a                               <http://example.org/f1/Status> ;
@@ -80,7 +80,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.2" .
 
 <http://www.example.org/status/42>
         a                               <http://example.org/f1/Status> ;
@@ -109,7 +109,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.2" .
 
 <http://www.example.org/status/21>
         a                               <http://example.org/f1/Status> ;
@@ -129,7 +129,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.2" .
 
 <http://www.example.org/status/135>
         a                               <http://example.org/f1/Status> ;
@@ -149,7 +149,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.9" .
 
 <http://www.example.org/status/114>
         a                               <http://example.org/f1/Status> ;
@@ -180,7 +180,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/status/71>
         a                               <http://example.org/f1/Status> ;
@@ -200,7 +200,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.4" .
 
 <http://www.example.org/status/50>
         a                               <http://example.org/f1/Status> ;
@@ -220,22 +220,21 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.6" .
 
 <http://www.example.org/pitStops/28>
         a                               <http://example.org/f1/PitStops> ;
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/1> ;
         <http://example.org/f1/duration>
-                "23.464"^^<http://www.w3.org/2001/XMLSchema#float> ;
+                "23.464" ;
         <http://example.org/f1/lap>     36 ;
         <http://example.org/f1/milliseconds>
                 23464 ;
         <http://example.org/f1/pitstopid>
                 28 ;
         <http://example.org/f1/raceid>  <http://example.org/race/860> ;
-        <http://example.org/f1/stop>    2 ;
-        <http://example.org/f1/time>    "17:59:54"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/stop>    2 .
 
 <http://www.example.org/lapTimes/22>
         a                               <http://example.org/f1/LapTimes> ;
@@ -249,7 +248,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.1" .
 
 <http://www.example.org/status/29>
         a                               <http://example.org/f1/Status> ;
@@ -269,7 +268,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.0" .
 
 <http://www.example.org/status/122>
         a                               <http://example.org/f1/Status> ;
@@ -295,7 +294,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.2" .
 
 <http://www.example.org/lapTimes/72>
         a                               <http://example.org/f1/LapTimes> ;
@@ -309,7 +308,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.3" .
 
 <http://www.example.org/status/79>
         a                               <http://example.org/f1/Status> ;
@@ -329,7 +328,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.0" .
 
 <http://www.example.org/status/58>
         a                               <http://example.org/f1/Status> ;
@@ -349,7 +348,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/status/37>
         a                               <http://example.org/f1/Status> ;
@@ -393,7 +392,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.0" .
 
 <http://www.example.org/lapTimes/80>
         a                               <http://example.org/f1/LapTimes> ;
@@ -407,7 +406,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.1" .
 
 <http://www.example.org/status/87>
         a                               <http://example.org/f1/Status> ;
@@ -433,7 +432,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:40.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:40.6" .
 
 <http://www.example.org/status/45>
         a                               <http://example.org/f1/Status> ;
@@ -453,7 +452,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:44.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:44.3" .
 
 <http://www.example.org/status/24>
         a                               <http://example.org/f1/Status> ;
@@ -473,7 +472,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:39.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:39.4" .
 
 <http://www.example.org/lapTimes/107>
         a                               <http://example.org/f1/LapTimes> ;
@@ -487,7 +486,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.2" .
 
 <http://www.example.org/status/117>
         a                               <http://example.org/f1/Status> ;
@@ -513,7 +512,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.7" .
 
 <http://www.example.org/status/74>
         a                               <http://example.org/f1/Status> ;
@@ -533,7 +532,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.6" .
 
 <http://www.example.org/status/53>
         a                               <http://example.org/f1/Status> ;
@@ -553,7 +552,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.0" .
 
 <http://www.example.org/qualifying/4967>
         a                               <http://example.org/f1/Qualifying> ;
@@ -561,36 +560,35 @@
                 <http://www.example.org/constructor/1> ;
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/18> ;
-        <http://example.org/f1/number>  3 ;
+        <http://example.org/f1/number>  "3" ;
         <http://example.org/f1/position>
                 2 ;
-        <http://example.org/f1/q1>      "01:26.8"^^<http://www.w3.org/2001/XMLSchema#time> ;
-        <http://example.org/f1/q2>      "01:25.7"^^<http://www.w3.org/2001/XMLSchema#time> ;
-        <http://example.org/f1/q3>      "01:25.1"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://example.org/f1/q1>      "01:26.8" ;
+        <http://example.org/f1/q2>      "01:25.7" ;
+        <http://example.org/f1/q3>      "01:25.1" ;
         <http://example.org/f1/qualifyid>
                 4967 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> .
-
-<http://www.example.org/status/32>
-        a                               <http://example.org/f1/Status> ;
-        <http://example.org/f1/status>  "Fuel pressure"@en ;
-        <http://example.org/f1/statusid>
-                32 .
 
 <http://www.example.org/pitStops/10>
         a                               <http://example.org/f1/PitStops> ;
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/18> ;
         <http://example.org/f1/duration>
-                "23.275"^^<http://www.w3.org/2001/XMLSchema#float> ;
+                "23.275" ;
         <http://example.org/f1/lap>     16 ;
         <http://example.org/f1/milliseconds>
                 23275 ;
         <http://example.org/f1/pitstopid>
                 10 ;
         <http://example.org/f1/raceid>  <http://example.org/race/860> ;
-        <http://example.org/f1/stop>    1 ;
-        <http://example.org/f1/time>    "17:28:30"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/stop>    1 .
+
+<http://www.example.org/status/32>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel pressure"@en ;
+        <http://example.org/f1/statusid>
+                32 .
 
 <http://www.example.org/lapTimes/25>
         a                               <http://example.org/f1/LapTimes> ;
@@ -604,7 +602,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.8" .
 
 <http://www.example.org/circuit/1>
         a                             <http://example.org/f1/Circuit> ;
@@ -633,7 +631,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.5" .
 
 <http://www.example.org/status/11>
         a                               <http://example.org/f1/Status> ;
@@ -671,7 +669,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:32.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:32.4" .
 
 <http://www.example.org/status/82>
         a                               <http://example.org/f1/Status> ;
@@ -691,7 +689,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:55.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:55.4" .
 
 <http://www.example.org/status/61>
         a                               <http://example.org/f1/Status> ;
@@ -711,7 +709,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.7" .
 
 <http://www.example.org/status/40>
         a                               <http://example.org/f1/Status> ;
@@ -731,7 +729,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.6" .
 
 <http://www.example.org/lapTimes/12>
         a                               <http://example.org/f1/LapTimes> ;
@@ -745,7 +743,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.6" .
 
 <http://www.example.org/status/19>
         a                               <http://example.org/f1/Status> ;
@@ -771,7 +769,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.5" .
 
 <http://www.example.org/status/112>
         a                               <http://example.org/f1/Status> ;
@@ -791,7 +789,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.1" .
 
 <http://www.example.org/constructor/1>
         a                             <http://example.org/f1/Constructor> ;
@@ -822,7 +820,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.1" .
 
 <http://www.example.org/lapTimes/62>
         a                               <http://example.org/f1/LapTimes> ;
@@ -836,7 +834,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.3" .
 
 <http://www.example.org/status/69>
         a                               <http://example.org/f1/Status> ;
@@ -856,7 +854,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:21.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:21.6" .
 
 <http://www.example.org/status/48>
         a                               <http://example.org/f1/Status> ;
@@ -876,7 +874,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.9" .
 
 <http://www.example.org/status/27>
         a                               <http://example.org/f1/Status> ;
@@ -896,7 +894,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.9" .
 
 <http://www.example.org/status/120>
         a                               <http://example.org/f1/Status> ;
@@ -916,7 +914,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.0" .
 
 <http://www.example.org/status/98>
         a                               <http://example.org/f1/Status> ;
@@ -936,7 +934,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.7" .
 
 <http://www.example.org/status/77>
         a                               <http://example.org/f1/Status> ;
@@ -962,7 +960,21 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/pitStops/13>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/duration>
+                "22.862" ;
+        <http://example.org/f1/lap>     17 ;
+        <http://example.org/f1/milliseconds>
+                22862 ;
+        <http://example.org/f1/pitstopid>
+                13 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    1 .
 
 <http://www.example.org/status/35>
         a                               <http://example.org/f1/Status> ;
@@ -982,22 +994,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
-
-<http://www.example.org/pitStops/13>
-        a                               <http://example.org/f1/PitStops> ;
-        <http://example.org/f1/driverid>
-                <http://www.example.org/driver/1> ;
-        <http://example.org/f1/duration>
-                "22.862"^^<http://www.w3.org/2001/XMLSchema#float> ;
-        <http://example.org/f1/lap>     17 ;
-        <http://example.org/f1/milliseconds>
-                22862 ;
-        <http://example.org/f1/pitstopid>
-                13 ;
-        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
-        <http://example.org/f1/stop>    1 ;
-        <http://example.org/f1/time>    "17:30:12"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/status/14>
         a                               <http://example.org/f1/Status> ;
@@ -1035,7 +1032,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.4" .
 
 <http://www.example.org/lapTimes/99>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1049,12 +1046,12 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:20.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:20.0" .
 
 <http://www.example.org/driver/1>
         a                               <http://example.org/f1/Driver> ;
         <http://example.org/f1/code>    "HAM" ;
-        <http://example.org/f1/dob>     "07/01/1985"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://example.org/f1/dob>     "07/01/1985" ;
         <http://example.org/f1/driverid>
                 1 ;
         <http://example.org/f1/driverref>
@@ -1063,7 +1060,7 @@
                 "Lewis" ;
         <http://example.org/f1/nationality>
                 "British"@en ;
-        <http://example.org/f1/number>  44 ;
+        <http://example.org/f1/number>  "44" ;
         <http://example.org/f1/surname>
                 "Hamilton" ;
         <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/Lewis_Hamilton> .
@@ -1086,7 +1083,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.2" .
 
 <http://www.example.org/status/64>
         a                               <http://example.org/f1/Status> ;
@@ -1106,7 +1103,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.7" .
 
 <http://www.example.org/status/43>
         a                               <http://example.org/f1/Status> ;
@@ -1126,7 +1123,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:51.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:51.3" .
 
 <http://www.example.org/status/22>
         a                               <http://example.org/f1/Status> ;
@@ -1146,7 +1143,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.6" .
 
 <http://www.example.org/status/136>
         a                               <http://example.org/f1/Status> ;
@@ -1166,7 +1163,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.1" .
 
 <http://www.example.org/status/115>
         a                               <http://example.org/f1/Status> ;
@@ -1192,7 +1189,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/status/72>
         a                               <http://example.org/f1/Status> ;
@@ -1212,7 +1209,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.3" .
 
 <http://www.example.org/status/51>
         a                               <http://example.org/f1/Status> ;
@@ -1232,7 +1229,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.2" .
 
 <http://www.example.org/status/30>
         a                               <http://example.org/f1/Status> ;
@@ -1252,7 +1249,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.8" .
 
 <http://www.example.org/lapTimes/113>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1266,7 +1263,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.7" .
 
 <http://www.example.org/status/123>
         a                               <http://example.org/f1/Status> ;
@@ -1298,7 +1295,7 @@
         <http://example.org/f1/position>
                 4 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:51.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:51.4" .
 
 <http://www.example.org/status/80>
         a                               <http://example.org/f1/Status> ;
@@ -1318,7 +1315,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.7" .
 
 <http://www.example.org/lapTimes/52>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1332,7 +1329,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.0" .
 
 <http://www.example.org/status/59>
         a                               <http://example.org/f1/Status> ;
@@ -1352,7 +1349,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.6" .
 
 <http://www.example.org/status/38>
         a                               <http://example.org/f1/Status> ;
@@ -1372,7 +1369,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.8" .
 
 <http://www.example.org/status/17>
         a                               <http://example.org/f1/Status> ;
@@ -1398,7 +1395,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.6" .
 
 <http://www.example.org/status/110>
         a                               <http://example.org/f1/Status> ;
@@ -1424,7 +1421,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.1" .
 
 <http://www.example.org/lapTimes/81>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1438,7 +1435,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.3" .
 
 <http://www.example.org/status/88>
         a                               <http://example.org/f1/Status> ;
@@ -1458,7 +1455,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.3" .
 
 <http://www.example.org/status/67>
         a                               <http://example.org/f1/Status> ;
@@ -1484,7 +1481,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:23.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:23.7" .
 
 <http://www.example.org/status/25>
         a                               <http://example.org/f1/Status> ;
@@ -1504,7 +1501,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.3" .
 
 <http://www.example.org/lapTimes/108>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1518,7 +1515,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.0" .
 
 <http://www.example.org/status/118>
         a                               <http://example.org/f1/Status> ;
@@ -1544,7 +1541,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/driverStandings/64978>
         a                               <http://example.org/f1/DriverStandings> ;
@@ -1576,7 +1573,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.5" .
 
 <http://www.example.org/status/54>
         a                               <http://example.org/f1/Status> ;
@@ -1596,7 +1593,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.8" .
 
 <http://www.example.org/status/33>
         a                               <http://example.org/f1/Status> ;
@@ -1616,7 +1613,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.2" .
 
 <http://www.example.org/lapTimes/116>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1630,7 +1627,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.9" .
 
 <http://www.example.org/status/12>
         a                               <http://example.org/f1/Status> ;
@@ -1668,7 +1665,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:39.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:39.3" .
 
 <http://www.example.org/lapTimes/97>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1682,7 +1679,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:23.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:23.5" .
 
 <http://www.example.org/status/83>
         a                               <http://example.org/f1/Status> ;
@@ -1702,7 +1699,7 @@
         <http://example.org/f1/position>
                 4 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:40.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:40.7" .
 
 <http://www.example.org/status/62>
         a                               <http://example.org/f1/Status> ;
@@ -1722,7 +1719,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.6" .
 
 <http://www.example.org/status/41>
         a                               <http://example.org/f1/Status> ;
@@ -1742,7 +1739,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.0" .
 
 <http://www.example.org/status/20>
         a                               <http://example.org/f1/Status> ;
@@ -1762,7 +1759,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.0" .
 
 <http://www.example.org/status/134>
         a                               <http://example.org/f1/Status> ;
@@ -1782,7 +1779,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.4" .
 
 <http://www.example.org/status/113>
         a                               <http://example.org/f1/Status> ;
@@ -1802,7 +1799,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.4" .
 
 <http://www.example.org/status/91>
         a                               <http://example.org/f1/Status> ;
@@ -1822,7 +1819,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.6" .
 
 <http://www.example.org/status/70>
         a                               <http://example.org/f1/Status> ;
@@ -1842,13 +1839,21 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.4" .
 
-<http://www.example.org/status/49>
-        a                               <http://example.org/f1/Status> ;
-        <http://example.org/f1/status>  "Track rod"@en ;
-        <http://example.org/f1/statusid>
-                49 .
+<http://www.example.org/pitStops/27>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/duration>
+                "22.837" ;
+        <http://example.org/f1/lap>     36 ;
+        <http://example.org/f1/milliseconds>
+                22837 ;
+        <http://example.org/f1/pitstopid>
+                27 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    2 .
 
 <http://www.example.org/lapTimes/42>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1862,22 +1867,13 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.4" .
 
-<http://www.example.org/pitStops/27>
-        a                               <http://example.org/f1/PitStops> ;
-        <http://example.org/f1/driverid>
-                <http://www.example.org/driver/18> ;
-        <http://example.org/f1/duration>
-                "22.837"^^<http://www.w3.org/2001/XMLSchema#float> ;
-        <http://example.org/f1/lap>     36 ;
-        <http://example.org/f1/milliseconds>
-                22837 ;
-        <http://example.org/f1/pitstopid>
-                27 ;
-        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
-        <http://example.org/f1/stop>    2 ;
-        <http://example.org/f1/time>    "17:59:44"^^<http://www.w3.org/2001/XMLSchema#time> .
+<http://www.example.org/status/49>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Track rod"@en ;
+        <http://example.org/f1/statusid>
+                49 .
 
 <http://www.example.org/lapTimes/21>
         a                               <http://example.org/f1/LapTimes> ;
@@ -1891,7 +1887,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.9" .
 
 <http://www.example.org/status/28>
         a                               <http://example.org/f1/Status> ;
@@ -1911,7 +1907,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.2" .
 
 <http://www.example.org/status/121>
         a                               <http://example.org/f1/Status> ;
@@ -1937,7 +1933,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.1" .
 
 <http://www.example.org/status/99>
         a                               <http://example.org/f1/Status> ;
@@ -1957,7 +1953,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.9" .
 
 <http://www.example.org/status/78>
         a                               <http://example.org/f1/Status> ;
@@ -1977,7 +1973,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.9" .
 
 <http://www.example.org/status/36>
         a                               <http://example.org/f1/Status> ;
@@ -1997,7 +1993,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.8" .
 
 <http://www.example.org/status/15>
         a                               <http://example.org/f1/Status> ;
@@ -2035,7 +2031,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.1" .
 
 <http://www.example.org/status/86>
         a                               <http://example.org/f1/Status> ;
@@ -2050,19 +2046,19 @@
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/1> ;
         <http://example.org/f1/fastestlap>
-                57 ;
+                "57" ;
         <http://example.org/f1/fastestlapspeed>
-                "213.214"^^<http://www.w3.org/2001/XMLSchema#float> ;
+                "213.214" ;
         <http://example.org/f1/fastestlaptime>
-                "01:29.5"^^<http://www.w3.org/2001/XMLSchema#time> ;
+                "01:29.5" ;
         <http://example.org/f1/grid>    1 ;
         <http://example.org/f1/laps>    58 ;
         <http://example.org/f1/milliseconds>
-                5653640 ;
-        <http://example.org/f1/number>  4 ;
+                "5653640" ;
+        <http://example.org/f1/number>  "4" ;
         <http://example.org/f1/points>  15 ;
         <http://example.org/f1/position>
-                3 ;
+                "3" ;
         <http://example.org/f1/positionorder>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
@@ -2071,7 +2067,7 @@
                 21234 ;
         <http://example.org/f1/statusid>
                 <http://www.example.org/status/1> ;
-        <http://example.org/f1/time>    "4.075"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "4.075" .
 
 <http://www.example.org/lapTimes/79>
         a                               <http://example.org/f1/LapTimes> ;
@@ -2085,7 +2081,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.2" .
 
 <http://www.example.org/status/65>
         a                               <http://example.org/f1/Status> ;
@@ -2105,7 +2101,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.8"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.8" .
 
 <http://www.example.org/status/44>
         a                               <http://example.org/f1/Status> ;
@@ -2125,7 +2121,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:51.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:51.6" .
 
 <http://www.example.org/status/23>
         a                               <http://example.org/f1/Status> ;
@@ -2145,7 +2141,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:54.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:54.0" .
 
 <http://www.example.org/lapTimes/106>
         a                               <http://example.org/f1/LapTimes> ;
@@ -2159,7 +2155,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.1" .
 
 <http://www.example.org/status/116>
         a                               <http://example.org/f1/Status> ;
@@ -2171,11 +2167,11 @@
         a                               <http://example.org/f1/Race> ;
         <http://example.org/f1/circuitid>
                 <http://www.example.org/circuit/1> ;
-        <http://example.org/f1/date>    "18/03/2012"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://example.org/f1/date>    "18/03/2012" ;
         <http://example.org/f1/name>    "Australian Grand Prix" ;
         <http://example.org/f1/raceid>  860 ;
         <http://example.org/f1/round>   1 ;
-        <http://example.org/f1/time>    "06:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://example.org/f1/time>    "06:00:00" ;
         <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/2012_Australian_Grand_Prix> ;
         <http://example.org/f1/year>    <http://www.example.org/season/2012> .
 
@@ -2197,7 +2193,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.7" .
 
 <http://www.example.org/driverStandings/64976>
         a                               <http://example.org/f1/DriverStandings> ;
@@ -2229,7 +2225,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.5" .
 
 <http://www.example.org/lapTimes/45>
         a                               <http://example.org/f1/LapTimes> ;
@@ -2243,7 +2239,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.2" .
 
 <http://www.example.org/qualifying/4966>
         a                               <http://example.org/f1/Qualifying> ;
@@ -2251,12 +2247,12 @@
                 <http://www.example.org/constructor/1> ;
         <http://example.org/f1/driverid>
                 <http://www.example.org/driver/1> ;
-        <http://example.org/f1/number>  4 ;
+        <http://example.org/f1/number>  "4" ;
         <http://example.org/f1/position>
                 1 ;
-        <http://example.org/f1/q1>      "01:26.8"^^<http://www.w3.org/2001/XMLSchema#time> ;
-        <http://example.org/f1/q2>      "01:25.6"^^<http://www.w3.org/2001/XMLSchema#time> ;
-        <http://example.org/f1/q3>      "01:24.9"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://example.org/f1/q1>      "01:26.8" ;
+        <http://example.org/f1/q2>      "01:25.6" ;
+        <http://example.org/f1/q3>      "01:24.9" ;
         <http://example.org/f1/qualifyid>
                 4966 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> .
@@ -2279,7 +2275,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.7" .
 
 <http://www.example.org/status/10>
         a                               <http://example.org/f1/Status> ;
@@ -2299,7 +2295,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:29.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:29.6" .
 
 <http://www.example.org/status/124>
         a                               <http://example.org/f1/Status> ;
@@ -2331,7 +2327,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:54.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:54.7" .
 
 <http://www.example.org/status/81>
         a                               <http://example.org/f1/Status> ;
@@ -2351,7 +2347,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:36.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:36.4" .
 
 <http://www.example.org/status/60>
         a                               <http://example.org/f1/Status> ;
@@ -2371,7 +2367,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.1" .
 
 <http://www.example.org/constructorStandings/24932>
         a                               <http://example.org/f1/ConstructorStandings> ;
@@ -2397,7 +2393,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.6" .
 
 <http://www.example.org/status/39>
         a                               <http://example.org/f1/Status> ;
@@ -2417,7 +2413,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:34.0"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:34.0" .
 
 <http://www.example.org/status/18>
         a                               <http://example.org/f1/Status> ;
@@ -2443,7 +2439,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.5"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.5" .
 
 <http://www.example.org/status/111>
         a                               <http://example.org/f1/Status> ;
@@ -2463,7 +2459,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.2"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.2" .
 
 <http://www.example.org/lapTimes/82>
         a                               <http://example.org/f1/LapTimes> ;
@@ -2477,7 +2473,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.7" .
 
 <http://www.example.org/status/89>
         a                               <http://example.org/f1/Status> ;
@@ -2497,7 +2493,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.6" .
 
 <http://www.example.org/status/68>
         a                               <http://example.org/f1/Status> ;
@@ -2517,7 +2513,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "02:39.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "02:39.7" .
 
 <http://www.example.org/status/47>
         a                               <http://example.org/f1/Status> ;
@@ -2543,7 +2539,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.3"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.3" .
 
 <http://www.example.org/lapTimes/109>
         a                               <http://example.org/f1/LapTimes> ;
@@ -2557,7 +2553,7 @@
         <http://example.org/f1/position>
                 3 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.1"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.1" .
 
 <http://www.example.org/status/119>
         a                               <http://example.org/f1/Status> ;
@@ -2577,7 +2573,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:32.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:32.4" .
 
 <http://www.example.org/status/97>
         a                               <http://example.org/f1/Status> ;
@@ -2603,7 +2599,7 @@
         <http://example.org/f1/position>
                 2 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.6"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.6" .
 
 <http://www.example.org/status/55>
         a                               <http://example.org/f1/Status> ;
@@ -2623,7 +2619,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:30.7"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:30.7" .
 
 <http://www.example.org/status/34>
         a                               <http://example.org/f1/Status> ;
@@ -2643,7 +2639,7 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:31.9"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:31.9" .
 
 <http://www.example.org/status/13>
         a                               <http://example.org/f1/Status> ;
@@ -2660,7 +2656,7 @@
 <http://www.example.org/driver/18>
         a                               <http://example.org/f1/Driver> ;
         <http://example.org/f1/code>    "BUT" ;
-        <http://example.org/f1/dob>     "19/01/1980"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://example.org/f1/dob>     "19/01/1980" ;
         <http://example.org/f1/driverid>
                 18 ;
         <http://example.org/f1/driverref>
@@ -2669,7 +2665,7 @@
                 "Jenson" ;
         <http://example.org/f1/nationality>
                 "British"@en ;
-        <http://example.org/f1/number>  22 ;
+        <http://example.org/f1/number>  "22" ;
         <http://example.org/f1/surname>
                 "Button" ;
         <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/Jenson_Button> .
@@ -2698,4 +2694,4 @@
         <http://example.org/f1/position>
                 1 ;
         <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
-        <http://example.org/f1/time>    "01:33.4"^^<http://www.w3.org/2001/XMLSchema#time> .
+        <http://example.org/f1/time>    "01:33.4" .
