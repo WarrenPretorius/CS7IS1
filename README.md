@@ -68,7 +68,7 @@ stardog-admin server start --disable-security
 
 Go to [WebOwl Visual](http://www.visualdataweb.de/webvowl/) and Upload file `f1_w_restrictions.owl` to visualise ontology.
 
-![F1 Ontology](https://github.com/WarrenPretorius/CS7IS1/vis_f1_ont.png)
+![F1 Ontology](https://raw.githubusercontent.com/WarrenPretorius/CS7IS1/master/vis_f1_ont.png)
 
 ## Ontology Documentation 
 Documentation of Ontology is done using Widoco. Output files are in `F1_Ontology_Documentation/` folder.
