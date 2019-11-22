@@ -76,7 +76,6 @@ function circFastLapSeason3(year) {
        } ORDER BY ASC(xsd:string(?laptime)) LIMIT 1
        `;
 }
-
 function slowLapYearSeason5(year) {
     return `SELECT DISTINCT ?time ?ms ?name ?accyear ?racename WHERE{
         ?laptimes a <http://example.org/f1/LapTimes> .
@@ -90,6 +89,117 @@ function slowLapYearSeason5(year) {
         ?year <http://example.org/f1/year> ?accyear .
        FILTER (?accyear= ${year}  && ?ms <= 480000)
        } ORDER BY DESC(xsd:string(?time)) LIMIT 1
+       `;
+}
+function mostRaceWonSeason6() {
+    return `SELECT DISTINCT ?raceid ?wins ?name WHERE {
+        ?drivStand a <http://example.org/f1/DriverStandings> .
+        ?drivStand <http://example.org/f1/raceid> ?driveid .
+        ?driveid <http://example.org/f1/raceid> ?raceid .
+        {
+        SELECT DISTINCT ?raceid WHERE{
+          ?season a <http://example.org/f1/Season> .
+          ?season <http://example.org/f1/year> 2017 .
+          ?race a <http://example.org/f1/Race> .
+          ?race <http://example.org/f1/year> ?season .
+          ?race <http://example.org/f1/round> ?round .
+          ?race <http://example.org/f1/raceid> ?raceid .
+        } ORDER BY DESC(?round) LIMIT 1
+        }
+        ?drivStand <http://example.org/f1/wins> ?wins .
+        ?drivStand <http://example.org/f1/driverid> ?driver .
+        ?driver <http://example.org/f1/surname> ?name .
+       } ORDER BY DESC(?wins) LIMIT 1
+       `;
+}
+function driverChampSeason7(year) {
+    return `SELECT DISTINCT ?raceid ?pos ?name WHERE {
+        ?drivStand a <http://example.org/f1/DriverStandings> .
+        ?drivStand <http://example.org/f1/raceid> ?driveid .
+        ?driveid <http://example.org/f1/raceid> ?raceid .
+        {
+        SELECT DISTINCT ?raceid WHERE{
+          ?season a <http://example.org/f1/Season> .
+          ?season <http://example.org/f1/year> ${year} .
+          ?race a <http://example.org/f1/Race> .
+          ?race <http://example.org/f1/year> ?season .
+          ?race <http://example.org/f1/round> ?round .
+          ?race <http://example.org/f1/raceid> ?raceid .
+        } ORDER BY DESC(?round) LIMIT 1
+        }
+        ?drivStand <http://example.org/f1/position> ?pos .
+        ?drivStand <http://example.org/f1/driverid> ?driver .
+        ?driver <http://example.org/f1/surname> ?name .
+       } ORDER BY ASC(?pos) LIMIT 1
+       `;
+}
+function consChampSeason8(year) {
+    return `SELECT DISTINCT ?raceid ?pos ?name WHERE {
+        ?conStand a <http://example.org/f1/ConstructorStandings> .
+        ?conStand <http://example.org/f1/raceid> ?driveid .
+        ?driveid <http://example.org/f1/raceid> ?raceid .
+        {
+        SELECT DISTINCT ?raceid WHERE{
+          ?season a <http://example.org/f1/Season> .
+          ?season <http://example.org/f1/year> ${year} .
+          ?race a <http://example.org/f1/Race> .
+          ?race <http://example.org/f1/year> ?season .
+          ?race <http://example.org/f1/round> ?round .
+          ?race <http://example.org/f1/raceid> ?raceid .
+        } ORDER BY DESC(?round) LIMIT 1
+        }
+        ?conStand <http://example.org/f1/position> ?pos .
+        ?conStand <http://example.org/f1/constructorid> ?con .
+        ?con <http://example.org/f1/name> ?name .
+       } ORDER BY ASC(?pos) LIMIT 1
+       `;
+}
+function driverMostPoleSeason9(year) {
+    return `SELECT DISTINCT ?dname ?pole_count (COUNT(?dname) as ?pole_count) WHERE {
+        ?season a <http://example.org/f1/Season> .
+        ?season <http://example.org/f1/year> ${year} .
+        ?race a <http://example.org/f1/Race> .
+        ?race <http://example.org/f1/year> ?season .
+        ?quali a <http://example.org/f1/Qualifying> .
+        ?quali <http://example.org/f1/raceid> ?race .
+        ?quali <http://example.org/f1/position> ?pos .
+        ?quali <http://example.org/f1/raceid> ?race .
+        ?race <http://example.org/f1/circuitid> ?circuit .
+        ?circuit <http://example.org/f1/name> ?cname .
+        ?quali <http://example.org/f1/driverid> ?driver .
+        ?driver <http://example.org/f1/surname> ?dname .
+        FILTER(?pos = 1)
+       } GROUP BY(?dname) ORDER BY DESC(?pole_count) LIMIT 1
+       `;
+}
+function constMostPoleSeason10(year) {
+    return `SELECT DISTINCT ?cname ?pole_count (COUNT(?cname) as ?pole_count) WHERE {
+        ?season a <http://example.org/f1/Season> .
+        ?season <http://example.org/f1/year> ${year} .
+        ?race a <http://example.org/f1/Race> .
+        ?race <http://example.org/f1/year> ?season .
+        ?quali a <http://example.org/f1/Qualifying> .
+        ?quali <http://example.org/f1/raceid> ?race .
+        ?quali <http://example.org/f1/position> ?pos .
+        ?quali <http://example.org/f1/raceid> ?race .
+        ?quali <http://example.org/f1/constructorid> ?cons .
+        ?cons <http://example.org/f1/name> ?cname .
+        FILTER(?pos = 1)
+       } GROUP BY(?cname) ORDER BY DESC(?pole_count) LIMIT 1
+       `;
+}
+function f_reasonNotFinishRace(year) {
+    return `SELECT DISTINCT ?status_val (COUNT(?status_val) as ?status_count) WHERE{
+        ?season a <http://example.org/f1/Season> .
+        ?season <http://example.org/f1/year> ${year} .
+        ?result a <http://example.org/f1/Results> .
+        ?result <http://example.org/f1/raceid> ?race .
+        ?race <http://example.org/f1/year> ?season .
+        ?result <http://example.org/f1/statusid> ?status .
+        ?status <http://example.org/f1/status> ?status_val .
+        ?status <http://example.org/f1/statusid> ?statusid .
+        FILTER(?statusid != 1 && !CONTAINS(lcase(?status_val), "lap"))
+       } GROUP BY (?status_val) ORDER BY DESC(?status_count) LIMIT 1
        `;
 }
 
@@ -173,20 +283,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
         });
     }
 
-    function f_driverSlowYear(agent) {
-        return new Promise((resolve, rejct) => {
-            let year = agent.parameters.number;
-            query.execute(conn, 'formula11', driverSlowYear4(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
-                .then(({ body }) => {
-                    let laptime = body.results.bindings[0].laptime.value;
-                    let time = body.results.bindings[0].time.value;
-                    let name = body.results.bindings[0].name.value;
-                    agent.add(`The Slowest lap time in ${year} was ${time} on ${circname} set by ${name} `);
-                    return resolve();
-                });
-        });
-    }
-
     function f_slowLapYearSeason(agent) {
         return new Promise((resolve, rejct) => {
             let year = agent.parameters.number;
@@ -196,6 +292,83 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                     let time = body.results.bindings[0].time.value;
                     let name = body.results.bindings[0].name.value;
                     agent.add(`The Slowest lap time in ${year} was ${time} at ${racename} set by ${name} `);
+                    return resolve();
+                });
+        });
+    } 
+
+    function f_mostRaceWonSeason(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', mostRaceWonSeason6(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let wins = body.results.bindings[0].wins.value;
+                    let name = body.results.bindings[0].name.value;
+                    agent.add(`${name} had ${wins} wins in ${year}`);
+                    return resolve();
+                });
+        });
+    } 
+    
+    function f_driverChampSeason(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', driverChampSeason7(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let wins = body.results.bindings[0].wins.value;
+                    let name = body.results.bindings[0].name.value;
+                    agent.add(`${name} won the championship in ${year}`);
+                    return resolve();
+                });
+        });
+    } 
+
+    function f_consChampSeason(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', consChampSeason8(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let wins = body.results.bindings[0].wins.value;
+                    let name = body.results.bindings[0].name.value;
+                    agent.add(`${name} won the championship in ${year}`);
+                    return resolve();
+                });
+        });
+    } 
+
+    function f_driverMostPoleSeason(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', driverMostPoleSeason9(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let pole_count = body.results.bindings[0].pole_count.value;
+                    let dname = body.results.bindings[0].dname.value;
+                    agent.add(`With ${pole_count} poles, ${dname} got the most poles.`);
+                    return resolve();
+                });
+        });
+    } 
+
+    function f_constMostPoleSeason(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', constMostPoleSeason10(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let pole_count = body.results.bindings[0].pole_count.value;
+                    let dname = body.results.bindings[0].dname.value;
+                    agent.add(`With ${pole_count} poles, ${dname} got the most poles.`);
+                    return resolve();
+                });
+        });
+    } 
+
+    function f_reasonNotFinishRace(agent) {
+        return new Promise((resolve, rejct) => {
+            let year = agent.parameters.number;
+            query.execute(conn, 'formula11', constMostPoleSeason10(year), 'application/sparql-results+json', { limit: 1, offset: 0, })
+                .then(({ body }) => {
+                    let status_val = body.results.bindings[0].status_val.value;
+                    agent.add(`Leading reason for not finishing race in year ${year} was ${status_val}`);
                     return resolve();
                 });
         });
@@ -239,6 +412,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     intentMap.set('8Const Win Champ Season', f_consChampSeason);
     intentMap.set('9Driver Most Pole Season', f_driverMostPoleSeason);
     intentMap.set('10Cons Most Pole Seaon', f_constMostPoleSeason);
+    intentMap.set('11Reason Not Finish Race', f_reasonNotFinishRace);
     
 
     agent.handleRequest(intentMap);
