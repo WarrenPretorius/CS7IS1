@@ -62,7 +62,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 ### Which circuit had the fastest lap time in season X
 # SELECT DISTINCT ?laptime ?racename ?consname ?circname WHERE {
 #  ?season a <http://example.org/f1/Season> .
-#  ?season <http://example.org/f1/year> 2016 .
+#  ?season <http://example.org/f1/year> ?year .
 #  ?race a <http://example.org/f1/Race> .
 #  ?race <http://example.org/f1/year> ?season .
 #  ?race <http://example.org/f1/name> ?racename .
@@ -74,10 +74,33 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 #  ?cons a <http://example.org/f1/Constructor> .
 #  ?result <http://example.org/f1/constructorid> ?consid .
 #  ?consid <http://example.org/f1/name> ?consname .
+#  FILTER(?year = 2016)
+# } ORDER BY ASC(xsd:string(?laptime)) LIMIT 1
+
+### Which circuit had the fastest lap time in season X, who set it and who did they drive for?
+# SELECT DISTINCT ?racename ?circname ?laptime ?dname ?consname WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> ?year .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?race <http://example.org/f1/name> ?racename .
+#  ?race <http://example.org/f1/circuitid> ?circuitid .
+#  ?circuitid <http://example.org/f1/name> ?circname .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?result <http://example.org/f1/fastestlaptime> ?laptime .
+#  ?cons a <http://example.org/f1/Constructor> .
+#  ?result <http://example.org/f1/constructorid> ?consid .
+#  ?consid <http://example.org/f1/name> ?consname .
+#  ?result <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/forename> ?fname .
+#  ?driver <http://example.org/f1/surname> ?lname .
+#  BIND(CONCAT(?fname, " ", ?lname) AS ?dname) .
+#  FILTER(?year = 2017)
 # } ORDER BY ASC(xsd:string(?laptime)) LIMIT 1
 
 
-### Which Driver has had the slowest lap time in all of history
+### Which Driver has had the slowest lap time in all of (our) history
 # SELECT DISTINCT ?time ?ms ?name ?racename ?year WHERE{
 #  ?laptimes a <http://example.org/f1/LapTimes> .
 #  ?laptimes <http://example.org/f1/milliseconds> ?ms .
@@ -86,8 +109,9 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 #  ?laptimes <http://example.org/f1/driverid> ?driverid .
 #  ?driverid <http://example.org/f1/surname> ?name .
 #  ?raceid <http://example.org/f1/name> ?racename .
-#  ?raceid <http://example.org/f1/year> ?year .
-# } ORDER BY ASC(xsd:string(?time)) LIMIT 2
+#  ?raceid <http://example.org/f1/year> ?yearid .
+#  ?yearid <http://example.org/f1/year> ?year .
+# } ORDER BY ASC(xsd:string(?time)) LIMIT 1
 
 
 ### What was the slowest lap time in year / season X?
