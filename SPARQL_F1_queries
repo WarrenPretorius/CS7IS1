@@ -157,8 +157,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 #  ?quali <http://example.org/f1/raceid> ?race .
 #  ?quali <http://example.org/f1/position> ?pos .
 #  ?quali <http://example.org/f1/raceid> ?race .
-#  ?race <http://example.org/f1/circuitid> ?circuit .
-#  ?circuit <http://example.org/f1/name> ?cname .
 #  ?quali <http://example.org/f1/driverid> ?driver .
 #  ?driver <http://example.org/f1/surname> ?dname .
 #  FILTER(?pos = 1)
