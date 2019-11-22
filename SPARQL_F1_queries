@@ -3,7 +3,6 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 
-
 ### Which driver won race Y in season X ?
 ### Who won the 2017 Monaco Grand Prix ?
 # SELECT DISTINCT ?name ?racename ?year WHERE {
@@ -18,6 +17,28 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 #  ?result <http://example.org/f1/position> ?pos .
 #  ?result <http://example.org/f1/driverid> ?driver .
 #  ?driver <http://example.org/f1/surname> ?name .
+# } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
+
+### Which driver won race Y in season X and who do they drive for ?
+### Who won the 2017 Monaco Grand Prix ?
+# SELECT DISTINCT ?name ?cname ?racename ?year ?driverinfo WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> ?year .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?race <http://example.org/f1/name> ?racename .
+#  ?race <http://example.org/f1/name> "Monaco Grand Prix" .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?result <http://example.org/f1/position> ?pos .
+#  ?result <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/surname> ?sname .
+#  ?driver <http://example.org/f1/forename> ?fname .
+#  ?result <http://example.org/f1/constructorid> ?cons .
+#  ?cons <http://example.org/f1/name> ?cname .
+#  ?driver <http://example.org/f1/url> ?driverinfo .
+#  BIND(CONCAT(?fname, " ", ?sname) AS ?name) .
+#  FILTER(?year = 2017)
 # } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
 
 
