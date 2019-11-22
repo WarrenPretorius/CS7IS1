@@ -70,6 +70,20 @@ Go to [WebOwl Visual](http://www.visualdataweb.de/webvowl/) and Upload file `f1_
 
 ![F1 Ontology](https://raw.githubusercontent.com/WarrenPretorius/CS7IS1/master/vis_f1_ont.png)
 
+## Ask the Chatbot any of the following questions
+<img align="left" width="300" height="550" src="https://raw.githubusercontent.com/WarrenPretorius/CS7IS1/master/Dialogflow_demo.png">
+1. Which driver won race Y in season X ?
+2. Which constructor won the Y race in season X?
+3. Which circuit had the fastest lap time in season X?
+4. Which driver recorded the slowest lap time in year X ?
+5. What was the slowest lap time in year / season X?
+6. Which driver won the most races in season Y?
+7. Which driver won the championship in season X?
+8. Which constructor won the championship in season Y?
+9. Which driver got the most pole  positions in season Y?
+10. Which constructor got the most pole positions in season Y?
+11. What was the main/leading reasons for not finishing a race in season X?
+
 ## Ontology Documentation 
 Documentation of Ontology is done using Widoco. Output files are in `F1_Ontology_Documentation/` folder.
 
