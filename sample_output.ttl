@@ -1,0 +1,2697 @@
+<http://www.example.org/lapTimes/98>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     40 ;
+        <http://example.org/f1/laptimeid>
+                98 ;
+        <http://example.org/f1/milliseconds>
+                160660 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:40.7" .
+
+<http://www.example.org/status/84>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Battery"@en ;
+        <http://example.org/f1/statusid>
+                84 .
+
+<http://www.example.org/results/21232>
+        a                               <http://example.org/f1/Results> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/fastestlap>
+                "56" ;
+        <http://example.org/f1/fastestlapspeed>
+                "214.053" ;
+        <http://example.org/f1/fastestlaptime>
+                "01:29.2" ;
+        <http://example.org/f1/grid>    2 ;
+        <http://example.org/f1/laps>    58 ;
+        <http://example.org/f1/milliseconds>
+                "5649565" ;
+        <http://example.org/f1/number>  "3" ;
+        <http://example.org/f1/points>  25 ;
+        <http://example.org/f1/position>
+                "1" ;
+        <http://example.org/f1/positionorder>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/rank>    1 ;
+        <http://example.org/f1/resultid>
+                21232 ;
+        <http://example.org/f1/statusid>
+                <http://www.example.org/status/1> ;
+        <http://example.org/f1/time>    "34:09.6" .
+
+<http://www.example.org/lapTimes/77>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     19 ;
+        <http://example.org/f1/laptimeid>
+                77 ;
+        <http://example.org/f1/milliseconds>
+                93813 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.8" .
+
+<http://www.example.org/status/63>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Pneumatics"@en ;
+        <http://example.org/f1/statusid>
+                63 .
+
+<http://www.example.org/lapTimes/56>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     56 ;
+        <http://example.org/f1/laptimeid>
+                56 ;
+        <http://example.org/f1/milliseconds>
+                89187 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.2" .
+
+<http://www.example.org/status/42>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Heat shield fire"@en ;
+        <http://example.org/f1/statusid>
+                42 .
+
+<http://www.example.org/constructorResults/14356>
+        a                               <http://example.org/f1/ConstructorResults> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/constructorresultsid>
+                14356 ;
+        <http://example.org/f1/points>  40 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> .
+
+<http://www.example.org/lapTimes/35>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     35 ;
+        <http://example.org/f1/laptimeid>
+                35 ;
+        <http://example.org/f1/milliseconds>
+                92215 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.2" .
+
+<http://www.example.org/status/21>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Radiator"@en ;
+        <http://example.org/f1/statusid>
+                21 .
+
+<http://www.example.org/lapTimes/14>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     14 ;
+        <http://example.org/f1/laptimeid>
+                14 ;
+        <http://example.org/f1/milliseconds>
+                94164 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.2" .
+
+<http://www.example.org/status/135>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Brake duct"@en ;
+        <http://example.org/f1/statusid>
+                135 .
+
+<http://www.example.org/lapTimes/104>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     46 ;
+        <http://example.org/f1/laptimeid>
+                104 ;
+        <http://example.org/f1/milliseconds>
+                89865 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.9" .
+
+<http://www.example.org/status/114>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+18 Laps"@en ;
+        <http://example.org/f1/statusid>
+                114 .
+
+<http://www.example.org/season/2012>
+        a                             <http://example.org/f1/Season> ;
+        <http://example.org/f1/url>   <http://en.wikipedia.org/wiki/2012_Formula_One_season> ;
+        <http://example.org/f1/year>  2012 .
+
+<http://www.example.org/status/92>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Underweight"@en ;
+        <http://example.org/f1/statusid>
+                92 .
+
+<http://www.example.org/lapTimes/85>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     27 ;
+        <http://example.org/f1/laptimeid>
+                85 ;
+        <http://example.org/f1/milliseconds>
+                91814 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/status/71>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel rig"@en ;
+        <http://example.org/f1/statusid>
+                71 .
+
+<http://www.example.org/lapTimes/64>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     6 ;
+        <http://example.org/f1/laptimeid>
+                64 ;
+        <http://example.org/f1/milliseconds>
+                93380 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.4" .
+
+<http://www.example.org/status/50>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+17 Laps"@en ;
+        <http://example.org/f1/statusid>
+                50 .
+
+<http://www.example.org/lapTimes/43>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     43 ;
+        <http://example.org/f1/laptimeid>
+                43 ;
+        <http://example.org/f1/milliseconds>
+                90567 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.6" .
+
+<http://www.example.org/pitStops/28>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/duration>
+                "23.464" ;
+        <http://example.org/f1/lap>     36 ;
+        <http://example.org/f1/milliseconds>
+                23464 ;
+        <http://example.org/f1/pitstopid>
+                28 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    2 .
+
+<http://www.example.org/lapTimes/22>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     22 ;
+        <http://example.org/f1/laptimeid>
+                22 ;
+        <http://example.org/f1/milliseconds>
+                93141 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.1" .
+
+<http://www.example.org/status/29>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Puncture"@en ;
+        <http://example.org/f1/statusid>
+                29 .
+
+<http://www.example.org/lapTimes/112>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     54 ;
+        <http://example.org/f1/laptimeid>
+                112 ;
+        <http://example.org/f1/milliseconds>
+                90041 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.0" .
+
+<http://www.example.org/status/122>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+44 Laps"@en ;
+        <http://example.org/f1/statusid>
+                122 .
+
+<http://www.example.org/status/101>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Turbo"@en ;
+        <http://example.org/f1/statusid>
+                101 .
+
+<http://www.example.org/lapTimes/93>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     35 ;
+        <http://example.org/f1/laptimeid>
+                93 ;
+        <http://example.org/f1/milliseconds>
+                92209 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.2" .
+
+<http://www.example.org/lapTimes/72>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     14 ;
+        <http://example.org/f1/laptimeid>
+                72 ;
+        <http://example.org/f1/milliseconds>
+                94255 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.3" .
+
+<http://www.example.org/status/79>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Drivetrain"@en ;
+        <http://example.org/f1/statusid>
+                79 .
+
+<http://www.example.org/lapTimes/51>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     51 ;
+        <http://example.org/f1/laptimeid>
+                51 ;
+        <http://example.org/f1/milliseconds>
+                90049 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.0" .
+
+<http://www.example.org/status/58>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+26 Laps"@en ;
+        <http://example.org/f1/statusid>
+                58 .
+
+<http://www.example.org/lapTimes/30>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     30 ;
+        <http://example.org/f1/laptimeid>
+                30 ;
+        <http://example.org/f1/milliseconds>
+                91812 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/status/37>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Throttle"@en ;
+        <http://example.org/f1/statusid>
+                37 .
+
+<http://www.example.org/status/16>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+6 Laps"@en ;
+        <http://example.org/f1/statusid>
+                16 .
+
+<http://www.example.org/status/130>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Collision damage"@en ;
+        <http://example.org/f1/statusid>
+                130 .
+
+<http://www.example.org/status/109>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Axle"@en ;
+        <http://example.org/f1/statusid>
+                109 .
+
+<http://www.example.org/status/8>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Clutch"@en ;
+        <http://example.org/f1/statusid>
+                8 .
+
+<http://www.example.org/lapTimes/5>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     5 ;
+        <http://example.org/f1/laptimeid>
+                5 ;
+        <http://example.org/f1/milliseconds>
+                92984 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.0" .
+
+<http://www.example.org/lapTimes/80>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     22 ;
+        <http://example.org/f1/laptimeid>
+                80 ;
+        <http://example.org/f1/milliseconds>
+                93111 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.1" .
+
+<http://www.example.org/status/87>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Crankshaft"@en ;
+        <http://example.org/f1/statusid>
+                87 .
+
+<http://www.example.org/status/66>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fire"@en ;
+        <http://example.org/f1/statusid>
+                66 .
+
+<http://www.example.org/lapTimes/59>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     1 ;
+        <http://example.org/f1/laptimeid>
+                59 ;
+        <http://example.org/f1/milliseconds>
+                100622 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:40.6" .
+
+<http://www.example.org/status/45>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+11 Laps"@en ;
+        <http://example.org/f1/statusid>
+                45 .
+
+<http://www.example.org/lapTimes/38>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     38 ;
+        <http://example.org/f1/laptimeid>
+                38 ;
+        <http://example.org/f1/milliseconds>
+                164349 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:44.3" .
+
+<http://www.example.org/status/24>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Differential"@en ;
+        <http://example.org/f1/statusid>
+                24 .
+
+<http://www.example.org/lapTimes/17>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     17 ;
+        <http://example.org/f1/laptimeid>
+                17 ;
+        <http://example.org/f1/milliseconds>
+                99358 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:39.4" .
+
+<http://www.example.org/lapTimes/107>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     49 ;
+        <http://example.org/f1/laptimeid>
+                107 ;
+        <http://example.org/f1/milliseconds>
+                90179 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.2" .
+
+<http://www.example.org/status/117>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+24 Laps"@en ;
+        <http://example.org/f1/statusid>
+                117 .
+
+<http://www.example.org/status/95>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel leak"@en ;
+        <http://example.org/f1/statusid>
+                95 .
+
+<http://www.example.org/lapTimes/88>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     30 ;
+        <http://example.org/f1/laptimeid>
+                88 ;
+        <http://example.org/f1/milliseconds>
+                91731 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.7" .
+
+<http://www.example.org/status/74>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel"@en ;
+        <http://example.org/f1/statusid>
+                74 .
+
+<http://www.example.org/lapTimes/67>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     9 ;
+        <http://example.org/f1/laptimeid>
+                67 ;
+        <http://example.org/f1/milliseconds>
+                93561 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.6" .
+
+<http://www.example.org/status/53>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+13 Laps"@en ;
+        <http://example.org/f1/statusid>
+                53 .
+
+<http://www.example.org/lapTimes/46>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     46 ;
+        <http://example.org/f1/laptimeid>
+                46 ;
+        <http://example.org/f1/milliseconds>
+                90014 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.0" .
+
+<http://www.example.org/qualifying/4967>
+        a                               <http://example.org/f1/Qualifying> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/number>  "3" ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/q1>      "01:26.8" ;
+        <http://example.org/f1/q2>      "01:25.7" ;
+        <http://example.org/f1/q3>      "01:25.1" ;
+        <http://example.org/f1/qualifyid>
+                4967 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> .
+
+<http://www.example.org/pitStops/10>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/duration>
+                "23.275" ;
+        <http://example.org/f1/lap>     16 ;
+        <http://example.org/f1/milliseconds>
+                23275 ;
+        <http://example.org/f1/pitstopid>
+                10 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    1 .
+
+<http://www.example.org/status/32>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel pressure"@en ;
+        <http://example.org/f1/statusid>
+                32 .
+
+<http://www.example.org/lapTimes/25>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     25 ;
+        <http://example.org/f1/laptimeid>
+                25 ;
+        <http://example.org/f1/milliseconds>
+                92760 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.8" .
+
+<http://www.example.org/circuit/1>
+        a                             <http://example.org/f1/Circuit> ;
+        <http://example.org/f1/circuitid>
+                1 ;
+        <http://example.org/f1/circuitref>
+                "albert_park" ;
+        <http://example.org/f1/country>
+                "Australia"@en ;
+        <http://example.org/f1/lat>   "-37.8497"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://example.org/f1/lng>   "144.968"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://example.org/f1/location>
+                "Melbourne"@en ;
+        <http://example.org/f1/name>  "Albert Park Grand Prix Circuit" ;
+        <http://example.org/f1/url>   <http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit> .
+
+<http://www.example.org/lapTimes/115>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     57 ;
+        <http://example.org/f1/laptimeid>
+                115 ;
+        <http://example.org/f1/milliseconds>
+                89538 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.5" .
+
+<http://www.example.org/status/11>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+1 Lap"@en ;
+        <http://example.org/f1/statusid>
+                11 .
+
+<http://www.example.org/status/125>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+46 Laps"@en ;
+        <http://example.org/f1/statusid>
+                125 .
+
+<http://www.example.org/status/104>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fatal accident"@en ;
+        <http://example.org/f1/statusid>
+                104 .
+
+<http://www.example.org/status/3>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Accident"@en ;
+        <http://example.org/f1/statusid>
+                3 .
+
+<http://www.example.org/lapTimes/96>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     38 ;
+        <http://example.org/f1/laptimeid>
+                96 ;
+        <http://example.org/f1/milliseconds>
+                152354 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:32.4" .
+
+<http://www.example.org/status/82>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Injury"@en ;
+        <http://example.org/f1/statusid>
+                82 .
+
+<http://www.example.org/lapTimes/75>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     17 ;
+        <http://example.org/f1/laptimeid>
+                75 ;
+        <http://example.org/f1/milliseconds>
+                115417 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:55.4" .
+
+<http://www.example.org/status/61>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Wheel nut"@en ;
+        <http://example.org/f1/statusid>
+                61 .
+
+<http://www.example.org/lapTimes/54>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     54 ;
+        <http://example.org/f1/laptimeid>
+                54 ;
+        <http://example.org/f1/milliseconds>
+                89697 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.7" .
+
+<http://www.example.org/status/40>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Electronics"@en ;
+        <http://example.org/f1/statusid>
+                40 .
+
+<http://www.example.org/lapTimes/33>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     33 ;
+        <http://example.org/f1/laptimeid>
+                33 ;
+        <http://example.org/f1/milliseconds>
+                91632 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.6" .
+
+<http://www.example.org/lapTimes/12>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     12 ;
+        <http://example.org/f1/laptimeid>
+                12 ;
+        <http://example.org/f1/milliseconds>
+                93628 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.6" .
+
+<http://www.example.org/status/19>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+9 Laps"@en ;
+        <http://example.org/f1/statusid>
+                19 .
+
+<http://www.example.org/status/133>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+49 Laps"@en ;
+        <http://example.org/f1/statusid>
+                133 .
+
+<http://www.example.org/lapTimes/102>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     44 ;
+        <http://example.org/f1/laptimeid>
+                102 ;
+        <http://example.org/f1/milliseconds>
+                90535 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.5" .
+
+<http://www.example.org/status/112>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+15 Laps"@en ;
+        <http://example.org/f1/statusid>
+                112 .
+
+<http://www.example.org/lapTimes/8>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     8 ;
+        <http://example.org/f1/laptimeid>
+                8 ;
+        <http://example.org/f1/milliseconds>
+                93124 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.1" .
+
+<http://www.example.org/constructor/1>
+        a                             <http://example.org/f1/Constructor> ;
+        <http://example.org/f1/constructorid>
+                1 ;
+        <http://example.org/f1/constructorref>
+                "mclaren" ;
+        <http://example.org/f1/name>  "McLaren" ;
+        <http://example.org/f1/nationality>
+                "British"@en ;
+        <http://example.org/f1/url>   <http://en.wikipedia.org/wiki/McLaren> .
+
+<http://www.example.org/status/90>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Not restarted"@en ;
+        <http://example.org/f1/statusid>
+                90 .
+
+<http://www.example.org/lapTimes/83>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     25 ;
+        <http://example.org/f1/laptimeid>
+                83 ;
+        <http://example.org/f1/milliseconds>
+                92068 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.1" .
+
+<http://www.example.org/lapTimes/62>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     4 ;
+        <http://example.org/f1/laptimeid>
+                62 ;
+        <http://example.org/f1/milliseconds>
+                93347 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.3" .
+
+<http://www.example.org/status/69>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel system"@en ;
+        <http://example.org/f1/statusid>
+                69 .
+
+<http://www.example.org/lapTimes/41>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     41 ;
+        <http://example.org/f1/laptimeid>
+                41 ;
+        <http://example.org/f1/milliseconds>
+                141646 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:21.6" .
+
+<http://www.example.org/status/48>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel pump"@en ;
+        <http://example.org/f1/statusid>
+                48 .
+
+<http://www.example.org/lapTimes/20>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     20 ;
+        <http://example.org/f1/laptimeid>
+                20 ;
+        <http://example.org/f1/milliseconds>
+                92880 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.9" .
+
+<http://www.example.org/status/27>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Tyre"@en ;
+        <http://example.org/f1/statusid>
+                27 .
+
+<http://www.example.org/lapTimes/110>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     52 ;
+        <http://example.org/f1/laptimeid>
+                110 ;
+        <http://example.org/f1/milliseconds>
+                89927 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.9" .
+
+<http://www.example.org/status/120>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+21 Laps"@en ;
+        <http://example.org/f1/statusid>
+                120 .
+
+<http://www.example.org/lapTimes/91>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     33 ;
+        <http://example.org/f1/laptimeid>
+                91 ;
+        <http://example.org/f1/milliseconds>
+                92000 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.0" .
+
+<http://www.example.org/status/98>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Injection"@en ;
+        <http://example.org/f1/statusid>
+                98 .
+
+<http://www.example.org/lapTimes/70>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     12 ;
+        <http://example.org/f1/laptimeid>
+                70 ;
+        <http://example.org/f1/milliseconds>
+                93732 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.7" .
+
+<http://www.example.org/status/77>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "107% Rule"@en ;
+        <http://example.org/f1/statusid>
+                77 .
+
+<http://www.example.org/status/56>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Engine fire"@en ;
+        <http://example.org/f1/statusid>
+                56 .
+
+<http://www.example.org/lapTimes/49>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     49 ;
+        <http://example.org/f1/laptimeid>
+                49 ;
+        <http://example.org/f1/milliseconds>
+                90081 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/pitStops/13>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/duration>
+                "22.862" ;
+        <http://example.org/f1/lap>     17 ;
+        <http://example.org/f1/milliseconds>
+                22862 ;
+        <http://example.org/f1/pitstopid>
+                13 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    1 .
+
+<http://www.example.org/status/35>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Refuelling"@en ;
+        <http://example.org/f1/statusid>
+                35 .
+
+<http://www.example.org/lapTimes/28>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     28 ;
+        <http://example.org/f1/laptimeid>
+                28 ;
+        <http://example.org/f1/milliseconds>
+                91788 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/status/14>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+4 Laps"@en ;
+        <http://example.org/f1/statusid>
+                14 .
+
+<http://www.example.org/status/128>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+42 Laps"@en ;
+        <http://example.org/f1/statusid>
+                128 .
+
+<http://www.example.org/status/107>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Eye injury"@en ;
+        <http://example.org/f1/statusid>
+                107 .
+
+<http://www.example.org/status/6>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Gearbox"@en ;
+        <http://example.org/f1/statusid>
+                6 .
+
+<http://www.example.org/lapTimes/3>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     3 ;
+        <http://example.org/f1/laptimeid>
+                3 ;
+        <http://example.org/f1/milliseconds>
+                93350 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.4" .
+
+<http://www.example.org/lapTimes/99>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     41 ;
+        <http://example.org/f1/laptimeid>
+                99 ;
+        <http://example.org/f1/milliseconds>
+                140014 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:20.0" .
+
+<http://www.example.org/driver/1>
+        a                               <http://example.org/f1/Driver> ;
+        <http://example.org/f1/code>    "HAM" ;
+        <http://example.org/f1/dob>     "07/01/1985" ;
+        <http://example.org/f1/driverid>
+                1 ;
+        <http://example.org/f1/driverref>
+                "hamilton" ;
+        <http://example.org/f1/foremane>
+                "Lewis" ;
+        <http://example.org/f1/nationality>
+                "British"@en ;
+        <http://example.org/f1/number>  "44" ;
+        <http://example.org/f1/surname>
+                "Hamilton" ;
+        <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/Lewis_Hamilton> .
+
+<http://www.example.org/status/85>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Stalled"@en ;
+        <http://example.org/f1/statusid>
+                85 .
+
+<http://www.example.org/lapTimes/78>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     20 ;
+        <http://example.org/f1/laptimeid>
+                78 ;
+        <http://example.org/f1/milliseconds>
+                94233 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.2" .
+
+<http://www.example.org/status/64>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Handling"@en ;
+        <http://example.org/f1/statusid>
+                64 .
+
+<http://www.example.org/lapTimes/57>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     57 ;
+        <http://example.org/f1/laptimeid>
+                57 ;
+        <http://example.org/f1/milliseconds>
+                89738 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.7" .
+
+<http://www.example.org/status/43>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Exhaust"@en ;
+        <http://example.org/f1/statusid>
+                43 .
+
+<http://www.example.org/lapTimes/36>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     36 ;
+        <http://example.org/f1/laptimeid>
+                36 ;
+        <http://example.org/f1/milliseconds>
+                111349 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:51.3" .
+
+<http://www.example.org/status/22>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Suspension"@en ;
+        <http://example.org/f1/statusid>
+                22 .
+
+<http://www.example.org/lapTimes/15>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     15 ;
+        <http://example.org/f1/laptimeid>
+                15 ;
+        <http://example.org/f1/milliseconds>
+                94645 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.6" .
+
+<http://www.example.org/status/136>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Seat"@en ;
+        <http://example.org/f1/statusid>
+                136 .
+
+<http://www.example.org/lapTimes/105>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     47 ;
+        <http://example.org/f1/laptimeid>
+                105 ;
+        <http://example.org/f1/milliseconds>
+                90108 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/status/115>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+22 Laps"@en ;
+        <http://example.org/f1/statusid>
+                115 .
+
+<http://www.example.org/status/93>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Safety belt"@en ;
+        <http://example.org/f1/statusid>
+                93 .
+
+<http://www.example.org/lapTimes/86>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     28 ;
+        <http://example.org/f1/laptimeid>
+                86 ;
+        <http://example.org/f1/milliseconds>
+                91834 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/status/72>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Launch control"@en ;
+        <http://example.org/f1/statusid>
+                72 .
+
+<http://www.example.org/lapTimes/65>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     7 ;
+        <http://example.org/f1/laptimeid>
+                65 ;
+        <http://example.org/f1/milliseconds>
+                93315 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.3" .
+
+<http://www.example.org/status/51>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Oil pressure"@en ;
+        <http://example.org/f1/statusid>
+                51 .
+
+<http://www.example.org/lapTimes/44>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     44 ;
+        <http://example.org/f1/laptimeid>
+                44 ;
+        <http://example.org/f1/milliseconds>
+                90232 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.2" .
+
+<http://www.example.org/status/30>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Driveshaft"@en ;
+        <http://example.org/f1/statusid>
+                30 .
+
+<http://www.example.org/lapTimes/23>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     23 ;
+        <http://example.org/f1/laptimeid>
+                23 ;
+        <http://example.org/f1/milliseconds>
+                92840 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.8" .
+
+<http://www.example.org/lapTimes/113>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     55 ;
+        <http://example.org/f1/laptimeid>
+                113 ;
+        <http://example.org/f1/milliseconds>
+                89696 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.7" .
+
+<http://www.example.org/status/123>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+30 Laps"@en ;
+        <http://example.org/f1/statusid>
+                123 .
+
+<http://www.example.org/status/102>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "CV joint"@en ;
+        <http://example.org/f1/statusid>
+                102 .
+
+<http://www.example.org/status/1>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Finished"@en ;
+        <http://example.org/f1/statusid>
+                1 .
+
+<http://www.example.org/lapTimes/94>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     36 ;
+        <http://example.org/f1/laptimeid>
+                94 ;
+        <http://example.org/f1/milliseconds>
+                111396 ;
+        <http://example.org/f1/position>
+                4 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:51.4" .
+
+<http://www.example.org/status/80>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Ignition"@en ;
+        <http://example.org/f1/statusid>
+                80 .
+
+<http://www.example.org/lapTimes/73>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     15 ;
+        <http://example.org/f1/laptimeid>
+                73 ;
+        <http://example.org/f1/milliseconds>
+                94730 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.7" .
+
+<http://www.example.org/lapTimes/52>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     52 ;
+        <http://example.org/f1/laptimeid>
+                52 ;
+        <http://example.org/f1/milliseconds>
+                90047 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.0" .
+
+<http://www.example.org/status/59>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Tyre puncture"@en ;
+        <http://example.org/f1/statusid>
+                59 .
+
+<http://www.example.org/lapTimes/31>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     31 ;
+        <http://example.org/f1/laptimeid>
+                31 ;
+        <http://example.org/f1/milliseconds>
+                91565 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.6" .
+
+<http://www.example.org/status/38>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Steering"@en ;
+        <http://example.org/f1/statusid>
+                38 .
+
+<http://www.example.org/lapTimes/10>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     10 ;
+        <http://example.org/f1/laptimeid>
+                10 ;
+        <http://example.org/f1/milliseconds>
+                93767 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.8" .
+
+<http://www.example.org/status/17>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+7 Laps"@en ;
+        <http://example.org/f1/statusid>
+                17 .
+
+<http://www.example.org/status/131>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Power Unit"@en ;
+        <http://example.org/f1/statusid>
+                131 .
+
+<http://www.example.org/lapTimes/100>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     42 ;
+        <http://example.org/f1/laptimeid>
+                100 ;
+        <http://example.org/f1/milliseconds>
+                93630 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.6" .
+
+<http://www.example.org/status/110>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Water pipe"@en ;
+        <http://example.org/f1/statusid>
+                110 .
+
+<http://www.example.org/status/9>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Hydraulics"@en ;
+        <http://example.org/f1/statusid>
+                9 .
+
+<http://www.example.org/lapTimes/6>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     6 ;
+        <http://example.org/f1/laptimeid>
+                6 ;
+        <http://example.org/f1/milliseconds>
+                93117 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.1" .
+
+<http://www.example.org/lapTimes/81>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     23 ;
+        <http://example.org/f1/laptimeid>
+                81 ;
+        <http://example.org/f1/milliseconds>
+                93285 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.3" .
+
+<http://www.example.org/status/88>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+10 Laps"@en ;
+        <http://example.org/f1/statusid>
+                88 .
+
+<http://www.example.org/lapTimes/60>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     2 ;
+        <http://example.org/f1/laptimeid>
+                60 ;
+        <http://example.org/f1/milliseconds>
+                94297 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.3" .
+
+<http://www.example.org/status/67>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Wheel bearing"@en ;
+        <http://example.org/f1/statusid>
+                67 .
+
+<http://www.example.org/status/46>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Wheel rim"@en ;
+        <http://example.org/f1/statusid>
+                46 .
+
+<http://www.example.org/lapTimes/39>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     39 ;
+        <http://example.org/f1/laptimeid>
+                39 ;
+        <http://example.org/f1/milliseconds>
+                143729 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:23.7" .
+
+<http://www.example.org/status/25>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Overheating"@en ;
+        <http://example.org/f1/statusid>
+                25 .
+
+<http://www.example.org/lapTimes/18>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     18 ;
+        <http://example.org/f1/laptimeid>
+                18 ;
+        <http://example.org/f1/milliseconds>
+                93348 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.3" .
+
+<http://www.example.org/lapTimes/108>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     50 ;
+        <http://example.org/f1/laptimeid>
+                108 ;
+        <http://example.org/f1/milliseconds>
+                90019 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.0" .
+
+<http://www.example.org/status/118>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+29 Laps"@en ;
+        <http://example.org/f1/statusid>
+                118 .
+
+<http://www.example.org/status/96>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Excluded"@en ;
+        <http://example.org/f1/statusid>
+                96 .
+
+<http://www.example.org/lapTimes/89>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     31 ;
+        <http://example.org/f1/laptimeid>
+                89 ;
+        <http://example.org/f1/milliseconds>
+                91820 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/driverStandings/64978>
+        a                               <http://example.org/f1/DriverStandings> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/driverstandingsid>
+                64978 ;
+        <http://example.org/f1/points>  15 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/wins>    0 .
+
+<http://www.example.org/status/75>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Power loss"@en ;
+        <http://example.org/f1/statusid>
+                75 .
+
+<http://www.example.org/lapTimes/68>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     10 ;
+        <http://example.org/f1/laptimeid>
+                68 ;
+        <http://example.org/f1/milliseconds>
+                93471 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.5" .
+
+<http://www.example.org/status/54>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Withdrew"@en ;
+        <http://example.org/f1/statusid>
+                54 .
+
+<http://www.example.org/lapTimes/47>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     47 ;
+        <http://example.org/f1/laptimeid>
+                47 ;
+        <http://example.org/f1/milliseconds>
+                89828 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.8" .
+
+<http://www.example.org/status/33>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Front wing"@en ;
+        <http://example.org/f1/statusid>
+                33 .
+
+<http://www.example.org/lapTimes/26>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     26 ;
+        <http://example.org/f1/laptimeid>
+                26 ;
+        <http://example.org/f1/milliseconds>
+                92152 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.2" .
+
+<http://www.example.org/lapTimes/116>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     58 ;
+        <http://example.org/f1/laptimeid>
+                116 ;
+        <http://example.org/f1/milliseconds>
+                89867 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.9" .
+
+<http://www.example.org/status/12>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+2 Laps"@en ;
+        <http://example.org/f1/statusid>
+                12 .
+
+<http://www.example.org/status/126>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Supercharger"@en ;
+        <http://example.org/f1/statusid>
+                126 .
+
+<http://www.example.org/status/105>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Spark plugs"@en ;
+        <http://example.org/f1/statusid>
+                105 .
+
+<http://www.example.org/status/4>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Collision"@en ;
+        <http://example.org/f1/statusid>
+                4 .
+
+<http://www.example.org/lapTimes/1>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     1 ;
+        <http://example.org/f1/laptimeid>
+                1 ;
+        <http://example.org/f1/milliseconds>
+                99264 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:39.3" .
+
+<http://www.example.org/lapTimes/97>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     39 ;
+        <http://example.org/f1/laptimeid>
+                97 ;
+        <http://example.org/f1/milliseconds>
+                143484 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:23.5" .
+
+<http://www.example.org/status/83>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Chassis"@en ;
+        <http://example.org/f1/statusid>
+                83 .
+
+<http://www.example.org/lapTimes/76>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     18 ;
+        <http://example.org/f1/laptimeid>
+                76 ;
+        <http://example.org/f1/milliseconds>
+                100734 ;
+        <http://example.org/f1/position>
+                4 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:40.7" .
+
+<http://www.example.org/status/62>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Not classified"@en ;
+        <http://example.org/f1/statusid>
+                62 .
+
+<http://www.example.org/lapTimes/55>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     55 ;
+        <http://example.org/f1/laptimeid>
+                55 ;
+        <http://example.org/f1/milliseconds>
+                89645 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.6" .
+
+<http://www.example.org/status/41>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Broken wing"@en ;
+        <http://example.org/f1/statusid>
+                41 .
+
+<http://www.example.org/lapTimes/34>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     34 ;
+        <http://example.org/f1/laptimeid>
+                34 ;
+        <http://example.org/f1/milliseconds>
+                91989 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.0" .
+
+<http://www.example.org/status/20>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Spun off"@en ;
+        <http://example.org/f1/statusid>
+                20 .
+
+<http://www.example.org/lapTimes/13>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     13 ;
+        <http://example.org/f1/laptimeid>
+                13 ;
+        <http://example.org/f1/milliseconds>
+                93970 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.0" .
+
+<http://www.example.org/status/134>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+38 Laps"@en ;
+        <http://example.org/f1/statusid>
+                134 .
+
+<http://www.example.org/lapTimes/103>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     45 ;
+        <http://example.org/f1/laptimeid>
+                103 ;
+        <http://example.org/f1/milliseconds>
+                90378 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.4" .
+
+<http://www.example.org/status/113>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+25 Laps"@en ;
+        <http://example.org/f1/statusid>
+                113 .
+
+<http://www.example.org/lapTimes/9>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     9 ;
+        <http://example.org/f1/laptimeid>
+                9 ;
+        <http://example.org/f1/milliseconds>
+                93394 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.4" .
+
+<http://www.example.org/status/91>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Alternator"@en ;
+        <http://example.org/f1/statusid>
+                91 .
+
+<http://www.example.org/lapTimes/84>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     26 ;
+        <http://example.org/f1/laptimeid>
+                84 ;
+        <http://example.org/f1/milliseconds>
+                91593 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.6" .
+
+<http://www.example.org/status/70>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Oil line"@en ;
+        <http://example.org/f1/statusid>
+                70 .
+
+<http://www.example.org/lapTimes/63>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     5 ;
+        <http://example.org/f1/laptimeid>
+                63 ;
+        <http://example.org/f1/milliseconds>
+                93446 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.4" .
+
+<http://www.example.org/pitStops/27>
+        a                               <http://example.org/f1/PitStops> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/duration>
+                "22.837" ;
+        <http://example.org/f1/lap>     36 ;
+        <http://example.org/f1/milliseconds>
+                22837 ;
+        <http://example.org/f1/pitstopid>
+                27 ;
+        <http://example.org/f1/raceid>  <http://example.org/race/860> ;
+        <http://example.org/f1/stop>    2 .
+
+<http://www.example.org/lapTimes/42>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     42 ;
+        <http://example.org/f1/laptimeid>
+                42 ;
+        <http://example.org/f1/milliseconds>
+                91355 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.4" .
+
+<http://www.example.org/status/49>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Track rod"@en ;
+        <http://example.org/f1/statusid>
+                49 .
+
+<http://www.example.org/lapTimes/21>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     21 ;
+        <http://example.org/f1/laptimeid>
+                21 ;
+        <http://example.org/f1/milliseconds>
+                92903 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.9" .
+
+<http://www.example.org/status/28>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Driver Seat"@en ;
+        <http://example.org/f1/statusid>
+                28 .
+
+<http://www.example.org/lapTimes/111>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     53 ;
+        <http://example.org/f1/laptimeid>
+                111 ;
+        <http://example.org/f1/milliseconds>
+                90188 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.2" .
+
+<http://www.example.org/status/121>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Magneto"@en ;
+        <http://example.org/f1/statusid>
+                121 .
+
+<http://www.example.org/status/100>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Driver unwell"@en ;
+        <http://example.org/f1/statusid>
+                100 .
+
+<http://www.example.org/lapTimes/92>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     34 ;
+        <http://example.org/f1/laptimeid>
+                92 ;
+        <http://example.org/f1/milliseconds>
+                92082 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.1" .
+
+<http://www.example.org/status/99>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Distributor"@en ;
+        <http://example.org/f1/statusid>
+                99 .
+
+<http://www.example.org/lapTimes/71>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     13 ;
+        <http://example.org/f1/laptimeid>
+                71 ;
+        <http://example.org/f1/milliseconds>
+                93881 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.9" .
+
+<http://www.example.org/status/78>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Safety"@en ;
+        <http://example.org/f1/statusid>
+                78 .
+
+<http://www.example.org/lapTimes/50>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     50 ;
+        <http://example.org/f1/laptimeid>
+                50 ;
+        <http://example.org/f1/milliseconds>
+                89858 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.9" .
+
+<http://www.example.org/status/36>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Wheel"@en ;
+        <http://example.org/f1/statusid>
+                36 .
+
+<http://www.example.org/lapTimes/29>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     29 ;
+        <http://example.org/f1/laptimeid>
+                29 ;
+        <http://example.org/f1/milliseconds>
+                91813 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.8" .
+
+<http://www.example.org/status/15>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+5 Laps"@en ;
+        <http://example.org/f1/statusid>
+                15 .
+
+<http://www.example.org/status/129>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Engine misfire"@en ;
+        <http://example.org/f1/statusid>
+                129 .
+
+<http://www.example.org/status/108>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Oil pipe"@en ;
+        <http://example.org/f1/statusid>
+                108 .
+
+<http://www.example.org/status/7>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Transmission"@en ;
+        <http://example.org/f1/statusid>
+                7 .
+
+<http://www.example.org/lapTimes/4>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     4 ;
+        <http://example.org/f1/laptimeid>
+                4 ;
+        <http://example.org/f1/milliseconds>
+                93131 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.1" .
+
+<http://www.example.org/status/86>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Halfshaft"@en ;
+        <http://example.org/f1/statusid>
+                86 .
+
+<http://www.example.org/results/21234>
+        a                               <http://example.org/f1/Results> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/fastestlap>
+                "57" ;
+        <http://example.org/f1/fastestlapspeed>
+                "213.214" ;
+        <http://example.org/f1/fastestlaptime>
+                "01:29.5" ;
+        <http://example.org/f1/grid>    1 ;
+        <http://example.org/f1/laps>    58 ;
+        <http://example.org/f1/milliseconds>
+                "5653640" ;
+        <http://example.org/f1/number>  "4" ;
+        <http://example.org/f1/points>  15 ;
+        <http://example.org/f1/position>
+                "3" ;
+        <http://example.org/f1/positionorder>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/rank>    4 ;
+        <http://example.org/f1/resultid>
+                21234 ;
+        <http://example.org/f1/statusid>
+                <http://www.example.org/status/1> ;
+        <http://example.org/f1/time>    "4.075" .
+
+<http://www.example.org/lapTimes/79>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     21 ;
+        <http://example.org/f1/laptimeid>
+                79 ;
+        <http://example.org/f1/milliseconds>
+                93156 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.2" .
+
+<http://www.example.org/status/65>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Rear wing"@en ;
+        <http://example.org/f1/statusid>
+                65 .
+
+<http://www.example.org/lapTimes/58>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     58 ;
+        <http://example.org/f1/laptimeid>
+                58 ;
+        <http://example.org/f1/milliseconds>
+                90846 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.8" .
+
+<http://www.example.org/status/44>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Oil leak"@en ;
+        <http://example.org/f1/statusid>
+                44 .
+
+<http://www.example.org/lapTimes/37>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     37 ;
+        <http://example.org/f1/laptimeid>
+                37 ;
+        <http://example.org/f1/milliseconds>
+                111615 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:51.6" .
+
+<http://www.example.org/status/23>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Brakes"@en ;
+        <http://example.org/f1/statusid>
+                23 .
+
+<http://www.example.org/lapTimes/16>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     16 ;
+        <http://example.org/f1/laptimeid>
+                16 ;
+        <http://example.org/f1/milliseconds>
+                114021 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:54.0" .
+
+<http://www.example.org/lapTimes/106>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     48 ;
+        <http://example.org/f1/laptimeid>
+                106 ;
+        <http://example.org/f1/milliseconds>
+                90081 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/status/116>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+16 Laps"@en ;
+        <http://example.org/f1/statusid>
+                116 .
+
+<http://www.example.org/race/860>
+        a                               <http://example.org/f1/Race> ;
+        <http://example.org/f1/circuitid>
+                <http://www.example.org/circuit/1> ;
+        <http://example.org/f1/date>    "18/03/2012" ;
+        <http://example.org/f1/name>    "Australian Grand Prix" ;
+        <http://example.org/f1/raceid>  860 ;
+        <http://example.org/f1/round>   1 ;
+        <http://example.org/f1/time>    "06:00:00" ;
+        <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/2012_Australian_Grand_Prix> ;
+        <http://example.org/f1/year>    <http://www.example.org/season/2012> .
+
+<http://www.example.org/status/94>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Oil pump"@en ;
+        <http://example.org/f1/statusid>
+                94 .
+
+<http://www.example.org/lapTimes/87>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     29 ;
+        <http://example.org/f1/laptimeid>
+                87 ;
+        <http://example.org/f1/milliseconds>
+                91743 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.7" .
+
+<http://www.example.org/driverStandings/64976>
+        a                               <http://example.org/f1/DriverStandings> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/driverstandingsid>
+                64976 ;
+        <http://example.org/f1/points>  25 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/wins>    1 .
+
+<http://www.example.org/status/73>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Injured"@en ;
+        <http://example.org/f1/statusid>
+                73 .
+
+<http://www.example.org/lapTimes/66>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     8 ;
+        <http://example.org/f1/laptimeid>
+                66 ;
+        <http://example.org/f1/milliseconds>
+                93461 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.5" .
+
+<http://www.example.org/lapTimes/45>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     45 ;
+        <http://example.org/f1/laptimeid>
+                45 ;
+        <http://example.org/f1/milliseconds>
+                90220 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.2" .
+
+<http://www.example.org/qualifying/4966>
+        a                               <http://example.org/f1/Qualifying> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/number>  "4" ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/q1>      "01:26.8" ;
+        <http://example.org/f1/q2>      "01:25.6" ;
+        <http://example.org/f1/q3>      "01:24.9" ;
+        <http://example.org/f1/qualifyid>
+                4966 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> .
+
+<http://www.example.org/status/31>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Retired"@en ;
+        <http://example.org/f1/statusid>
+                31 .
+
+<http://www.example.org/lapTimes/24>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     24 ;
+        <http://example.org/f1/laptimeid>
+                24 ;
+        <http://example.org/f1/milliseconds>
+                92701 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.7" .
+
+<http://www.example.org/status/10>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Electrical"@en ;
+        <http://example.org/f1/statusid>
+                10 .
+
+<http://www.example.org/lapTimes/114>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     56 ;
+        <http://example.org/f1/laptimeid>
+                114 ;
+        <http://example.org/f1/milliseconds>
+                89641 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:29.6" .
+
+<http://www.example.org/status/124>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+19 Laps"@en ;
+        <http://example.org/f1/statusid>
+                124 .
+
+<http://www.example.org/status/103>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Water pump"@en ;
+        <http://example.org/f1/statusid>
+                103 .
+
+<http://www.example.org/status/2>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Disqualified"@en ;
+        <http://example.org/f1/statusid>
+                2 .
+
+<http://www.example.org/lapTimes/95>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     37 ;
+        <http://example.org/f1/laptimeid>
+                95 ;
+        <http://example.org/f1/milliseconds>
+                114656 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:54.7" .
+
+<http://www.example.org/status/81>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Did not qualify"@en ;
+        <http://example.org/f1/statusid>
+                81 .
+
+<http://www.example.org/lapTimes/74>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     16 ;
+        <http://example.org/f1/laptimeid>
+                74 ;
+        <http://example.org/f1/milliseconds>
+                96403 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:36.4" .
+
+<http://www.example.org/status/60>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Out of fuel"@en ;
+        <http://example.org/f1/statusid>
+                60 .
+
+<http://www.example.org/lapTimes/53>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     53 ;
+        <http://example.org/f1/laptimeid>
+                53 ;
+        <http://example.org/f1/milliseconds>
+                90124 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/constructorStandings/24932>
+        a                               <http://example.org/f1/ConstructorStandings> ;
+        <http://example.org/f1/constructorid>
+                <http://www.example.org/constructor/1> ;
+        <http://example.org/f1/constructorstandingsid>
+                24932 ;
+        <http://example.org/f1/points>  40 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/wins>    1 .
+
+<http://www.example.org/lapTimes/32>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     32 ;
+        <http://example.org/f1/laptimeid>
+                32 ;
+        <http://example.org/f1/milliseconds>
+                91597 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.6" .
+
+<http://www.example.org/status/39>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Technical"@en ;
+        <http://example.org/f1/statusid>
+                39 .
+
+<http://www.example.org/lapTimes/11>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     11 ;
+        <http://example.org/f1/laptimeid>
+                11 ;
+        <http://example.org/f1/milliseconds>
+                93985 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:34.0" .
+
+<http://www.example.org/status/18>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+8 Laps"@en ;
+        <http://example.org/f1/statusid>
+                18 .
+
+<http://www.example.org/status/132>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "ERS"@en ;
+        <http://example.org/f1/statusid>
+                132 .
+
+<http://www.example.org/lapTimes/101>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     43 ;
+        <http://example.org/f1/laptimeid>
+                101 ;
+        <http://example.org/f1/milliseconds>
+                91502 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.5" .
+
+<http://www.example.org/status/111>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+14 Laps"@en ;
+        <http://example.org/f1/statusid>
+                111 .
+
+<http://www.example.org/lapTimes/7>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     7 ;
+        <http://example.org/f1/laptimeid>
+                7 ;
+        <http://example.org/f1/milliseconds>
+                93244 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.2" .
+
+<http://www.example.org/lapTimes/82>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     24 ;
+        <http://example.org/f1/laptimeid>
+                82 ;
+        <http://example.org/f1/milliseconds>
+                91740 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.7" .
+
+<http://www.example.org/status/89>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Safety concerns"@en ;
+        <http://example.org/f1/statusid>
+                89 .
+
+<http://www.example.org/lapTimes/61>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     3 ;
+        <http://example.org/f1/laptimeid>
+                61 ;
+        <http://example.org/f1/milliseconds>
+                93566 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.6" .
+
+<http://www.example.org/status/68>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Physical"@en ;
+        <http://example.org/f1/statusid>
+                68 .
+
+<http://www.example.org/lapTimes/40>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     40 ;
+        <http://example.org/f1/laptimeid>
+                40 ;
+        <http://example.org/f1/milliseconds>
+                159748 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "02:39.7" .
+
+<http://www.example.org/status/47>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Water leak"@en ;
+        <http://example.org/f1/statusid>
+                47 .
+
+<http://www.example.org/status/26>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Mechanical"@en ;
+        <http://example.org/f1/statusid>
+                26 .
+
+<http://www.example.org/lapTimes/19>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     19 ;
+        <http://example.org/f1/laptimeid>
+                19 ;
+        <http://example.org/f1/milliseconds>
+                93300 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.3" .
+
+<http://www.example.org/lapTimes/109>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     51 ;
+        <http://example.org/f1/laptimeid>
+                109 ;
+        <http://example.org/f1/milliseconds>
+                90052 ;
+        <http://example.org/f1/position>
+                3 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.1" .
+
+<http://www.example.org/status/119>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+23 Laps"@en ;
+        <http://example.org/f1/statusid>
+                119 .
+
+<http://www.example.org/lapTimes/90>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     32 ;
+        <http://example.org/f1/laptimeid>
+                90 ;
+        <http://example.org/f1/milliseconds>
+                92362 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:32.4" .
+
+<http://www.example.org/status/97>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Did not prequalify"@en ;
+        <http://example.org/f1/statusid>
+                97 .
+
+<http://www.example.org/status/76>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Vibrations"@en ;
+        <http://example.org/f1/statusid>
+                76 .
+
+<http://www.example.org/lapTimes/69>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/1> ;
+        <http://example.org/f1/lap>     11 ;
+        <http://example.org/f1/laptimeid>
+                69 ;
+        <http://example.org/f1/milliseconds>
+                93617 ;
+        <http://example.org/f1/position>
+                2 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.6" .
+
+<http://www.example.org/status/55>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+12 Laps"@en ;
+        <http://example.org/f1/statusid>
+                55 .
+
+<http://www.example.org/lapTimes/48>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     48 ;
+        <http://example.org/f1/laptimeid>
+                48 ;
+        <http://example.org/f1/milliseconds>
+                90702 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:30.7" .
+
+<http://www.example.org/status/34>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Water pressure"@en ;
+        <http://example.org/f1/statusid>
+                34 .
+
+<http://www.example.org/lapTimes/27>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     27 ;
+        <http://example.org/f1/laptimeid>
+                27 ;
+        <http://example.org/f1/milliseconds>
+                91943 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:31.9" .
+
+<http://www.example.org/status/13>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+3 Laps"@en ;
+        <http://example.org/f1/statusid>
+                13 .
+
+<http://www.example.org/status/127>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "+20 Laps"@en ;
+        <http://example.org/f1/statusid>
+                127 .
+
+<http://www.example.org/driver/18>
+        a                               <http://example.org/f1/Driver> ;
+        <http://example.org/f1/code>    "BUT" ;
+        <http://example.org/f1/dob>     "19/01/1980" ;
+        <http://example.org/f1/driverid>
+                18 ;
+        <http://example.org/f1/driverref>
+                "button" ;
+        <http://example.org/f1/foremane>
+                "Jenson" ;
+        <http://example.org/f1/nationality>
+                "British"@en ;
+        <http://example.org/f1/number>  "22" ;
+        <http://example.org/f1/surname>
+                "Button" ;
+        <http://example.org/f1/url>     <http://en.wikipedia.org/wiki/Jenson_Button> .
+
+<http://www.example.org/status/106>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Fuel pipe"@en ;
+        <http://example.org/f1/statusid>
+                106 .
+
+<http://www.example.org/status/5>
+        a                               <http://example.org/f1/Status> ;
+        <http://example.org/f1/status>  "Engine"@en ;
+        <http://example.org/f1/statusid>
+                5 .
+
+<http://www.example.org/lapTimes/2>
+        a                               <http://example.org/f1/LapTimes> ;
+        <http://example.org/f1/driverid>
+                <http://www.example.org/driver/18> ;
+        <http://example.org/f1/lap>     2 ;
+        <http://example.org/f1/laptimeid>
+                2 ;
+        <http://example.org/f1/milliseconds>
+                93414 ;
+        <http://example.org/f1/position>
+                1 ;
+        <http://example.org/f1/raceid>  <http://www.example.org/race/860> ;
+        <http://example.org/f1/time>    "01:33.4" .
