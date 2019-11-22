@@ -1,8 +1,3 @@
-PREFIX f1: <http://example.org/csv/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-
 ### Which driver won race Y in season X ?
 ## Who won the 2017 Monaco Grand Prix ?
 # SELECT DISTINCT ?name ?racename ?year ?raceinfo WHERE {
@@ -22,7 +17,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
 
 ### Which driver won race Y in season X and who do they drive for ?
-### Who won the 2017 Monaco Grand Prix ?
+### Give me info on the 2017 Monaco Grand Prix winner
 # SELECT DISTINCT ?name ?cname ?racename ?year ?driverinfo WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -45,6 +40,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
 ### Which constructor won the Y race in season X
+# Which constructor won the 2017 Monaco Grand Prix?
 # SELECT DISTINCT ?season ?consname ?racename ?consinfo WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -63,7 +59,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
 
 
-### Which circuit had the fastest lap time in season X
+### Which circuit had the fastest lap time in season X ?
+# Which circuit had the fastest lap in 2016?
 # SELECT DISTINCT ?laptime ?racename ?consname ?circname ?circuitinfo WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -83,6 +80,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY ASC(xsd:string(?laptime)) LIMIT 1
 
 ### Which circuit had the fastest lap time in season X, who set it and who did they drive for?
+# Which circuit had the fastest lap time in season 2017, who set it and who did they drive for?
 # SELECT DISTINCT ?racename ?circname ?laptime ?dname ?consname WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -119,7 +117,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY DESC(xsd:string(?time)) LIMIT 1
 
 
-### What was the slowest lap time in year / season X?
+### What was the slowest lap time in year / season X and who set it ?
+# What was the slowest lap in 2016 and who set it?
 # SELECT DISTINCT ?time ?ms ?name ?accyear ?racename WHERE{
 #  ?laptimes a <http://example.org/f1/LapTimes> .
 #  ?laptimes <http://example.org/f1/milliseconds> ?ms .
@@ -134,7 +133,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY DESC(xsd:string(?time)) LIMIT 1
 
 
-### Which driver won the most races in season Y
+### Which driver won the most races in season Y ?
+# Which driver won the most races in 2017?
 # SELECT DISTINCT ?wins ?name WHERE {
 #  ?drivStand a <http://example.org/f1/DriverStandings> .
 #  ?drivStand <http://example.org/f1/raceid> ?driveid .
@@ -157,6 +157,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
 ### Which driver won the championship in season X
+# Which driver won the championship in 2017?
 # SELECT DISTINCT ?name WHERE {
 #  ?drivStand a <http://example.org/f1/DriverStandings> .
 #  ?drivStand <http://example.org/f1/raceid> ?driveid .
@@ -180,7 +181,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY ASC(?pos) LIMIT 1
 
 
-### Which constructor won the championship in season Y
+### Which constructor won the championship in season X ?
 # SELECT DISTINCT ?name WHERE {
 #  ?conStand a <http://example.org/f1/ConstructorStandings> .
 #  ?conStand <http://example.org/f1/raceid> ?driveid .
@@ -202,7 +203,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } ORDER BY ASC(?pos) LIMIT 1
 
 
-### Which driver got the most pole positions in season Y
+### Which driver got the most pole positions in season X ?
+# Which driver got the most pole positions in 2017?
 # SELECT DISTINCT ?dname (COUNT(?dname) as ?pole_count) WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -218,7 +220,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } GROUP BY(?dname) ORDER BY DESC(?pole_count) LIMIT 1
 
 
-### Which constructor got the most pole positions in season Y
+### Which constructor got the most pole positions in season X ?
+# Which constructor got the most poles in 2017?
 # SELECT DISTINCT ?cname (COUNT(?cname) as ?pole_count) WHERE {
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
@@ -234,7 +237,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # } GROUP BY(?cname) ORDER BY DESC(?pole_count) LIMIT 1
 
 
-### What was the top 5 reasons for not finishing a race in season X
+### What was the top 5 reasons for not finishing a race in season X ?
+# What were the top 5 reasons for a DNF in 2016?
 # SELECT DISTINCT ?status_val (COUNT(?status_val) as ?status_count) WHERE{
 #  ?season a <http://example.org/f1/Season> .
 #  ?season <http://example.org/f1/year> ?year .
