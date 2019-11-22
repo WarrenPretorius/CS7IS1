@@ -1,0 +1,199 @@
+PREFIX f1: <http://example.org/csv/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+
+### Which driver won race Y in season X ?
+### Who won the 2017 Monaco Grand Prix ?
+# SELECT DISTINCT ?name ?racename ?year WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2017 .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?race <http://example.org/f1/name> ?racename .
+#  ?race <http://example.org/f1/name> "Monaco Grand Prix" .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?result <http://example.org/f1/position> ?pos .
+#  ?result <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/surname> ?name .
+# } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
+
+
+### Which constructor won the Y race in season X
+# SELECT DISTINCT ?season ?consname ?racename ?pos WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2017 .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?race <http://example.org/f1/name> ?racename .
+#  ?race <http://example.org/f1/name> "Monaco Grand Prix" .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?result <http://example.org/f1/position> ?pos .
+#  ?cons a <http://example.org/f1/Constructor> .
+#  ?result <http://example.org/f1/constructorid> ?consid .
+#  ?consid <http://example.org/f1/name> ?consname .
+# } ORDER BY ASC(xsd:integer(?pos)) LIMIT 1
+
+
+### Which circuit had the fastest lap time in season X
+# SELECT DISTINCT ?laptime ?racename ?consname ?circname WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2016 .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?race <http://example.org/f1/name> ?racename .
+#  ?race <http://example.org/f1/circuitid> ?circuitid .
+#  ?circuitid <http://example.org/f1/name> ?circname .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?result <http://example.org/f1/fastestlaptime> ?laptime .
+#  ?cons a <http://example.org/f1/Constructor> .
+#  ?result <http://example.org/f1/constructorid> ?consid .
+#  ?consid <http://example.org/f1/name> ?consname .
+# } ORDER BY ASC(xsd:string(?laptime)) LIMIT 1
+
+
+### Which Driver has had the slowest lap time in all of history
+# SELECT DISTINCT ?time ?ms ?name ?racename ?year WHERE{
+#  ?laptimes a <http://example.org/f1/LapTimes> .
+#  ?laptimes <http://example.org/f1/milliseconds> ?ms .
+#  ?laptimes <http://example.org/f1/time> ?time .
+#  ?laptimes <http://example.org/f1/raceid> ?raceid .
+#  ?laptimes <http://example.org/f1/driverid> ?driverid .
+#  ?driverid <http://example.org/f1/surname> ?name .
+#  ?raceid <http://example.org/f1/name> ?racename .
+#  ?raceid <http://example.org/f1/year> ?year .
+# } ORDER BY ASC(xsd:string(?time)) LIMIT 2
+
+
+### What was the slowest lap time in year / season X?
+# SELECT DISTINCT ?time ?ms ?name ?accyear ?racename WHERE{
+#  ?laptimes a <http://example.org/f1/LapTimes> .
+#  ?laptimes <http://example.org/f1/milliseconds> ?ms .
+#  ?laptimes <http://example.org/f1/time> ?time .
+#  ?laptimes <http://example.org/f1/raceid> ?raceid .
+#  ?laptimes <http://example.org/f1/driverid> ?driverid .
+#  ?driverid <http://example.org/f1/surname> ?name .
+#  ?raceid <http://example.org/f1/name> ?racename .
+#  ?raceid <http://example.org/f1/year> ?year .
+#  ?year <http://example.org/f1/year> ?accyear .
+# FILTER (?accyear= 2016  && ?ms <= 480000) #8 minute cap
+# } ORDER BY DESC(xsd:string(?time)) LIMIT 5
+
+
+### Which driver won the most races in season Y
+# SELECT DISTINCT ?raceid ?wins ?name WHERE {
+#  ?drivStand a <http://example.org/f1/DriverStandings> .
+#  ?drivStand <http://example.org/f1/raceid> ?driveid .
+#  ?driveid <http://example.org/f1/raceid> ?raceid .
+#  {
+#  SELECT DISTINCT ?raceid WHERE{
+#    ?season a <http://example.org/f1/Season> .
+#    ?season <http://example.org/f1/year> 2017 .
+#    ?race a <http://example.org/f1/Race> .
+#    ?race <http://example.org/f1/year> ?season .
+#    ?race <http://example.org/f1/round> ?round .
+#    ?race <http://example.org/f1/raceid> ?raceid .
+#  } ORDER BY DESC(?round) LIMIT 1
+#  }
+#  ?drivStand <http://example.org/f1/wins> ?wins .
+#  ?drivStand <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/surname> ?name .
+# } ORDER BY DESC(?wins) LIMIT 1
+
+
+### Which driver won the championship in season X
+# SELECT DISTINCT ?raceid ?pos ?name WHERE {
+#  ?drivStand a <http://example.org/f1/DriverStandings> .
+#  ?drivStand <http://example.org/f1/raceid> ?driveid .
+#  ?driveid <http://example.org/f1/raceid> ?raceid .
+#  {
+#  SELECT DISTINCT ?raceid WHERE{
+#    ?season a <http://example.org/f1/Season> .
+#    ?season <http://example.org/f1/year> 2017 .
+#    ?race a <http://example.org/f1/Race> .
+#    ?race <http://example.org/f1/year> ?season .
+#    ?race <http://example.org/f1/round> ?round .
+#    ?race <http://example.org/f1/raceid> ?raceid .
+#  } ORDER BY DESC(?round) LIMIT 1
+#  }
+#  ?drivStand <http://example.org/f1/position> ?pos .
+#  ?drivStand <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/surname> ?name .
+# } ORDER BY ASC(?pos) LIMIT 1
+
+
+### Which constructor won the championship in season Y
+# SELECT DISTINCT ?raceid ?pos ?name WHERE {
+#  ?conStand a <http://example.org/f1/ConstructorStandings> .
+#  ?conStand <http://example.org/f1/raceid> ?driveid .
+#  ?driveid <http://example.org/f1/raceid> ?raceid .
+#  {
+#  SELECT DISTINCT ?raceid WHERE{
+#    ?season a <http://example.org/f1/Season> .
+#    ?season <http://example.org/f1/year> 2017 .
+#    ?race a <http://example.org/f1/Race> .
+#    ?race <http://example.org/f1/year> ?season .
+#    ?race <http://example.org/f1/round> ?round .
+#    ?race <http://example.org/f1/raceid> ?raceid .
+#  } ORDER BY DESC(?round) LIMIT 1
+#  }
+#  ?conStand <http://example.org/f1/position> ?pos .
+#  ?conStand <http://example.org/f1/constructorid> ?con .
+#  ?con <http://example.org/f1/name> ?name .
+# } ORDER BY ASC(?pos) LIMIT 1
+
+
+### Which driver got the most pole positions in season Y
+# SELECT DISTINCT ?dname (COUNT(?dname) as ?pole_count) WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2017 .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?quali a <http://example.org/f1/Qualifying> .
+#  ?quali <http://example.org/f1/raceid> ?race .
+#  ?quali <http://example.org/f1/position> ?pos .
+#  ?quali <http://example.org/f1/raceid> ?race .
+#  ?race <http://example.org/f1/circuitid> ?circuit .
+#  ?circuit <http://example.org/f1/name> ?cname .
+#  ?quali <http://example.org/f1/driverid> ?driver .
+#  ?driver <http://example.org/f1/surname> ?dname .
+#  FILTER(?pos = 1)
+# } GROUP BY(?dname) ORDER BY DESC(?pole_count) LIMIT 1
+
+
+### Which constructor got the most pole positions in season Y
+# SELECT DISTINCT ?cname (COUNT(?cname) as ?pole_count) WHERE {
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2017 .
+#  ?race a <http://example.org/f1/Race> .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?quali a <http://example.org/f1/Qualifying> .
+#  ?quali <http://example.org/f1/raceid> ?race .
+#  ?quali <http://example.org/f1/position> ?pos .
+#  ?quali <http://example.org/f1/raceid> ?race .
+#  ?quali <http://example.org/f1/constructorid> ?cons .
+#  ?cons <http://example.org/f1/name> ?cname .
+#  FILTER(?pos = 1)
+# } GROUP BY(?cname) ORDER BY DESC(?pole_count) LIMIT 1
+
+
+### What was the leading reason for not finishing a race in season X
+# SELECT DISTINCT ?status_val (COUNT(?status_val) as ?status_count) WHERE{
+#  ?season a <http://example.org/f1/Season> .
+#  ?season <http://example.org/f1/year> 2016 .
+#  ?result a <http://example.org/f1/Results> .
+#  ?result <http://example.org/f1/raceid> ?race .
+#  ?race <http://example.org/f1/year> ?season .
+#  ?result <http://example.org/f1/statusid> ?status .
+#  ?status <http://example.org/f1/status> ?status_val .
+#  ?status <http://example.org/f1/statusid> ?statusid .
+#  FILTER(?statusid != 1 && !CONTAINS(lcase(?status_val), "lap"))
+# } GROUP BY (?status_val) ORDER BY DESC(?status_count) LIMIT 2
+
+
+
+
