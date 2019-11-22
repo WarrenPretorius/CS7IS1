@@ -1,0 +1,877 @@
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://webprotege.stanford.edu/Rdqi2bNvuzFKSSira2mfB2
+<http://webprotege.stanford.edu/Rdqi2bNvuzFKSSira2mfB2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://webprotege.stanford.edu/Rdqi2bNvuzFKSSira2mfB2> <http://www.w3.org/2000/01/rdf-schema#label> "foaf " .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> <http://www.w3.org/2002/07/owl#inverseOf> <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> .
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> <http://www.w3.org/2000/01/rdf-schema#label> "nextQual" .
+# 
+# http://webprotege.stanford.edu/R7Q6K8jdHcMB6yd9wzg3cp3
+<http://webprotege.stanford.edu/R7Q6K8jdHcMB6yd9wzg3cp3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R7Q6K8jdHcMB6yd9wzg3cp3> <http://www.w3.org/2000/01/rdf-schema#label> "constructor" .
+# 
+# http://webprotege.stanford.edu/R8Ng2IPfXyXLDwcNjj0Lsy2
+<http://webprotege.stanford.edu/R8Ng2IPfXyXLDwcNjj0Lsy2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R8Ng2IPfXyXLDwcNjj0Lsy2> <http://www.w3.org/2000/01/rdf-schema#label> "laptimes" .
+# 
+# http://webprotege.stanford.edu/R8OLiSFxKeaDwtFXFvAR7W
+<http://webprotege.stanford.edu/R8OLiSFxKeaDwtFXFvAR7W> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R8OLiSFxKeaDwtFXFvAR7W> <http://www.w3.org/2000/01/rdf-schema#label> "constructorstanding" .
+# 
+# http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T
+<http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> <http://www.w3.org/2000/01/rdf-schema#label> "statusid" .
+# 
+# http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI
+<http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> <http://www.w3.org/2000/01/rdf-schema#label> "resultid" .
+# 
+# http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E
+<http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> <http://www.w3.org/2000/01/rdf-schema#label> "raceid" .
+# 
+# http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx
+<http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx> <http://www.w3.org/2000/01/rdf-schema#label> "season" .
+# 
+# http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> .
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> <http://www.w3.org/2000/01/rdf-schema#label> "year" .
+# 
+# http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW
+<http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> <http://www.w3.org/2000/01/rdf-schema#label> "coordinates" .
+# 
+# http://webprotege.stanford.edu/RBk2UBJgtpUyPql3fcZ6hmC
+<http://webprotege.stanford.edu/RBk2UBJgtpUyPql3fcZ6hmC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RBk2UBJgtpUyPql3fcZ6hmC> <http://www.w3.org/2000/01/rdf-schema#label> "qualifying" .
+# 
+# http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o
+<http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> <http://www.w3.org/2000/01/rdf-schema#label> "constructorid" .
+# 
+# http://webprotege.stanford.edu/RCTiaJ73vy1nm4c3JQXA4sS
+<http://webprotege.stanford.edu/RCTiaJ73vy1nm4c3JQXA4sS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RCTiaJ73vy1nm4c3JQXA4sS> <http://www.w3.org/2000/01/rdf-schema#label> "pitstops" .
+# 
+# http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5
+<http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+# 
+# http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI
+<http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> <http://www.w3.org/2000/01/rdf-schema#label> "driverid" .
+# 
+# http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S
+<http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> <http://www.w3.org/2000/01/rdf-schema#label> "prevQual" .
+# 
+# http://webprotege.stanford.edu/RSxnczU8a8lsmOaesX42Ol
+<http://webprotege.stanford.edu/RSxnczU8a8lsmOaesX42Ol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RSxnczU8a8lsmOaesX42Ol> <http://www.w3.org/2000/01/rdf-schema#label> "constructorresult" .
+# 
+# http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba
+<http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> <http://www.w3.org/2000/01/rdf-schema#label> "circuitid" .
+# 
+# http://webprotege.stanford.edu/RyPKZLJWV0hvuPk3Y6Qbw9
+<http://webprotege.stanford.edu/RyPKZLJWV0hvuPk3Y6Qbw9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/RyPKZLJWV0hvuPk3Y6Qbw9> <http://www.w3.org/2000/01/rdf-schema#label> "driverstandings" .
+# 
+# http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q1
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q2
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q3
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q3> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1
+<http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1> <http://www.w3.org/2000/01/rdf-schema#label> "surname" .
+# 
+# http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW
+<http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW> <http://www.w3.org/2000/01/rdf-schema#label> "positionorder" .
+# 
+# http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE
+<http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> <http://www.w3.org/2000/01/rdf-schema#label> "nationality" .
+# 
+# http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v
+<http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> <http://www.w3.org/2000/01/rdf-schema#label> "circuitid" .
+# 
+# http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1
+<http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> <http://www.w3.org/2000/01/rdf-schema#label> "milliseconds" .
+# 
+# http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS
+<http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS> <http://www.w3.org/2000/01/rdf-schema#label> "rank" .
+# 
+# http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV
+<http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> <http://www.w3.org/2000/01/rdf-schema#label> "fastestlaptime" .
+# 
+# http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1
+<http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1> <http://www.w3.org/2000/01/rdf-schema#label> "laps" .
+# 
+# http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn
+<http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> <http://www.w3.org/2000/01/rdf-schema#label> "position" .
+# 
+# http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc
+<http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc> <http://www.w3.org/2000/01/rdf-schema#label> "qualifyid" .
+# 
+# http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2
+<http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2> <http://www.w3.org/2000/01/rdf-schema#label> "circuitref" .
+# 
+# http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC
+<http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> <http://www.w3.org/2000/01/rdf-schema#label> "constructorresultsid" .
+# 
+# http://webprotege.stanford.edu/R97017vyCtoMra0ookF22II
+<http://webprotege.stanford.edu/R97017vyCtoMra0ookF22II> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R97017vyCtoMra0ookF22II> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+# 
+# http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY
+<http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> <http://www.w3.org/2000/01/rdf-schema#label> "number" .
+# 
+# http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g
+<http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> <http://www.w3.org/2000/01/rdf-schema#label> "time" .
+# 
+# http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn
+<http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> <http://www.w3.org/2000/01/rdf-schema#label> "laptimeid" .
+# 
+# http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY
+<http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY> <http://www.w3.org/2000/01/rdf-schema#label> "raceid" .
+# 
+# http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf
+<http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf> <http://www.w3.org/2000/01/rdf-schema#label> "pitstopid" .
+# 
+# http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp
+<http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp> <http://www.w3.org/2000/01/rdf-schema#label> "driverid" .
+# 
+# http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo
+<http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo> <http://www.w3.org/2000/01/rdf-schema#label> "constructorref" .
+# 
+# http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V
+<http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> <http://www.w3.org/2000/01/rdf-schema#label> "long" .
+# 
+# http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS
+<http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> <http://www.w3.org/2000/01/rdf-schema#label> "countryName" .
+# 
+# http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq
+<http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq> <http://www.w3.org/2000/01/rdf-schema#label> "driverref" .
+# 
+# http://webprotege.stanford.edu/RBWv0iRO5MAuRpCiywMbz5j
+<http://webprotege.stanford.edu/RBWv0iRO5MAuRpCiywMbz5j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBWv0iRO5MAuRpCiywMbz5j> <http://www.w3.org/2000/01/rdf-schema#label> "lng" .
+# 
+# http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR
+<http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR> <http://www.w3.org/2000/01/rdf-schema#label> "grid" .
+# 
+# http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l
+<http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> <http://www.w3.org/2000/01/rdf-schema#label> "url" .
+# 
+# http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4
+<http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
+# 
+# http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN
+<http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN> <http://www.w3.org/2000/01/rdf-schema#label> "statusid" .
+# 
+# http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV
+<http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> <http://www.w3.org/2000/01/rdf-schema#label> "dob" .
+# 
+# http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK
+<http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> <http://www.w3.org/2000/01/rdf-schema#label> "fastestlap" .
+# 
+# http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe
+<http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> <http://www.w3.org/2000/01/rdf-schema#label> "driverstandingsid" .
+# 
+# http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0
+<http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> <http://www.w3.org/2000/01/rdf-schema#label> "constructorid" .
+# 
+# http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2
+<http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2> <http://www.w3.org/2000/01/rdf-schema#label> "stop" .
+# 
+# http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc
+<http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+# 
+# http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8
+<http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8> <http://www.w3.org/2000/01/rdf-schema#label> "duration" .
+# 
+# http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF
+<http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF> <http://www.w3.org/2000/01/rdf-schema#label> "status" .
+# 
+# http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB
+<http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
+# 
+# http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC
+<http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> <http://www.w3.org/2000/01/rdf-schema#label> "date" .
+# 
+# http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ
+<http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ> <http://www.w3.org/2000/01/rdf-schema#label> "round" .
+# 
+# http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5
+<http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5> <http://www.w3.org/2000/01/rdf-schema#label> "constructorstandingsid" .
+# 
+# http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq
+<http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq> <http://www.w3.org/2000/01/rdf-schema#label> "code" .
+# 
+# http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx
+<http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> <http://www.w3.org/2000/01/rdf-schema#label> "fastestlapspeed" .
+# 
+# http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB
+<http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB> <http://www.w3.org/2000/01/rdf-schema#label> "resultid" .
+# 
+# http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub
+<http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub> <http://www.w3.org/2000/01/rdf-schema#label> "year" .
+# 
+# http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY
+<http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> <http://www.w3.org/2000/01/rdf-schema#label> "lap" .
+# 
+# http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL
+<http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> <http://www.w3.org/2000/01/rdf-schema#label> "wins" .
+# 
+# http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT
+<http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT> <http://www.w3.org/2000/01/rdf-schema#label> "forename" .
+# 
+# http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU
+<http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> <http://www.w3.org/2000/01/rdf-schema#label> "points" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#comment> "Timing for a pitstop in race" .
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> <http://www.w3.org/2000/01/rdf-schema#label> "PitStops" .
+# 
+# http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#comment> "Constructor results during the season" .
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> <http://www.w3.org/2000/01/rdf-schema#label> "ConstructorStandings" .
+# 
+# http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo> .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#comment> "Manufacturer of the car" .
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> <http://www.w3.org/2000/01/rdf-schema#label> "Constructor" .
+# 
+# http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub> .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/2000/01/rdf-schema#comment> "Year races are held in" .
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> <http://www.w3.org/2000/01/rdf-schema#label> "Season" .
+# 
+# http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> .
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> .
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> <http://www.w3.org/2000/01/rdf-schema#label> "Q1" .
+# 
+# http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#comment> "Constructors per race" .
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> <http://www.w3.org/2000/01/rdf-schema#label> "ConstructorResults" .
+# 
+# http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY> .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> .
+_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ> .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#comment> "Rounds during season" .
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> <http://www.w3.org/2000/01/rdf-schema#label> "Race" .
+# 
+# http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1> .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp> .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq> .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> .
+_:genid43 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq> .
+_:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT> .
+_:genid46 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#comment> "Individual driving the car" .
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> <http://www.w3.org/2000/01/rdf-schema#label> "Driver" .
+# 
+# http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> .
+_:genid48 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> .
+_:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> .
+_:genid50 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2> .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> .
+_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> .
+_:genid53 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB> .
+_:genid54 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#comment> "Where race is held" .
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> <http://www.w3.org/2000/01/rdf-schema#label> "Circuit" .
+# 
+# http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2
+<http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> .
+_:genid55 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> .
+_:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> .
+_:genid58 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW> .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> .
+_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS> .
+_:genid62 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> .
+_:genid63 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1> .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> .
+_:genid65 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> .
+_:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR> .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> .
+_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> .
+_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB> .
+_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> .
+_:genid72 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#comment> "Results per race" .
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> <http://www.w3.org/2000/01/rdf-schema#label> "Results" .
+# 
+# http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> .
+_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN> .
+_:genid74 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF> .
+_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#comment> "Key-Value for status code, mainly from results" .
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+# 
+# http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> .
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> .
+_:genid76 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> .
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> .
+_:genid77 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> .
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> <http://www.w3.org/2000/01/rdf-schema#label> "Q2" .
+# 
+# http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk
+<http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> <http://www.w3.org/2000/01/rdf-schema#label> "f1" .
+# 
+# http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> .
+_:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> .
+_:genid81 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> .
+_:genid84 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> .
+_:genid85 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#comment> "Time of each lap per driver, per race" .
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> <http://www.w3.org/2000/01/rdf-schema#label> "LapTimes" .
+# 
+# http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> .
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> .
+_:genid86 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> .
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> .
+_:genid87 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> <http://www.w3.org/2000/01/rdf-schema#label> "Q3" .
+# 
+# http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> .
+_:genid89 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> .
+_:genid90 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> .
+_:genid91 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> .
+_:genid92 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> .
+_:genid93 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#comment> "Driver results during the season" .
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> <http://www.w3.org/2000/01/rdf-schema#label> "DriverStandings" .
+# 
+# http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9
+<http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> .
+_:genid94 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinates" .
+# 
+# http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> .
+_:genid96 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> .
+_:genid97 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> .
+_:genid98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q1> .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q2> .
+_:genid100 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q3> .
+_:genid101 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> .
+_:genid102 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc> .
+_:genid103 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#int> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> .
+_:genid104 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#comment> "Method for deciding the starting grid order for a race" .
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> <http://www.w3.org/2000/01/rdf-schema#label> "Qualifying" .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
