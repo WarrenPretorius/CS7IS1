@@ -18,29 +18,60 @@ Which constructor got the most pole positions in season Y?
 
 
 ### 13 Classes: ###  
-http://example.org/f1/DriverStandings
-http://example.org/f1/LapTimes
-http://example.org/f1/Results
-http://example.org/f1/Qualifying
-http://example.org/f1/ConstructorStandings
-http://example.org/f1/ConstructorResults
-http://example.org/f1/PitStops
-http://example.org/f1/Driver
-http://example.org/f1/Race
-http://example.org/f1/Status
-http://example.org/f1/Constructor
-http://example.org/f1/Circuit
-http://example.org/f1/Season
+```
+    http://example.org/f1/DriverStandings
+    http://example.org/f1/LapTimes
+    http://example.org/f1/Results
+    http://example.org/f1/Qualifying
+    http://example.org/f1/ConstructorStandings
+    http://example.org/f1/ConstructorResults
+    http://example.org/f1/PitStops
+    http://example.org/f1/Driver
+    http://example.org/f1/Race
+    http://example.org/f1/Status
+    http://example.org/f1/Constructor
+    http://example.org/f1/Circuit
+    http://example.org/f1/Season
+```
 
 ### 49+ Properties: ###  
-http://example.org/f1/driverid
-http://example.org/f1/driverstandingsid
-http://example.org/f1/points
-http://example.org/f1/position
-http://example.org/f1/raceid
-http://example.org/f1/wins
-http://example.org/f1/lap
+```
+    http://example.org/f1/driverid
+    http://example.org/f1/driverstandingsid
+    http://example.org/f1/points
+    http://example.org/f1/position
+    http://example.org/f1/raceid
+    http://example.org/f1/wins
+    http://example.org/f1/lap
 ...
+```
+
+
+# Loading TripleStore
+## Setting Up Stardog
+
+Follow the StarDog [documnentation](https://www.stardog.com/docs) to create a local stardog server.
+
+1. Start Server
+```
+stardog-admin server start --disable-security
+```
+2. (Optional) If querying to graph database externally, tunnel localhost port
+```
+./ngrok http 5820
+```
+3. Load database through interface using `full_output_2.ttl`
+
+4. Get querying! **Existing Sampel Queries in** `SPARQL_F1_queries`
+
+## Explore Formula 1 Ontology Visually
+
+Go to [WebOwl Visual](http://www.visualdataweb.de/webvowl/) and Upload file `f1_w_restrictions.owl` to visualise ontology.
+
+![F1 Ontology](https://github.com/WarrenPretorius/CS7IS1/vis_f1_ont.png)
+
+## Ontology Documentation 
+Documentation of Ontology is done using Widoco. Output files are in `F1_Ontology_Documentation/` folder.
 
 
 ## Create Ontologies for Following Datasets by Friday (15th Nov)
@@ -53,3 +84,4 @@ http://example.org/f1/lap
 | Sophie |   drivers,driverStandings, results  |
 | Dhruv | races, seasons |
 | Warren | status, qualifying |
+
