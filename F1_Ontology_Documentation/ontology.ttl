@@ -1,0 +1,956 @@
+@prefix : <http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi> .
+
+<http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://webprotege.stanford.edu/Rdqi2bNvuzFKSSira2mfB2
+<http://webprotege.stanford.edu/Rdqi2bNvuzFKSSira2mfB2> rdf:type rdfs:Datatype ;
+                                                        rdfs:label "foaf " .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V
+<http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         owl:inverseOf <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> ;
+                                                         rdf:type owl:InverseFunctionalProperty ;
+                                                         rdfs:label "nextQual" .
+
+
+###  http://webprotege.stanford.edu/R7Q6K8jdHcMB6yd9wzg3cp3
+<http://webprotege.stanford.edu/R7Q6K8jdHcMB6yd9wzg3cp3> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "constructor" .
+
+
+###  http://webprotege.stanford.edu/R8Ng2IPfXyXLDwcNjj0Lsy2
+<http://webprotege.stanford.edu/R8Ng2IPfXyXLDwcNjj0Lsy2> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "laptimes" .
+
+
+###  http://webprotege.stanford.edu/R8OLiSFxKeaDwtFXFvAR7W
+<http://webprotege.stanford.edu/R8OLiSFxKeaDwtFXFvAR7W> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "constructorstanding" .
+
+
+###  http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T
+<http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "statusid" .
+
+
+###  http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI
+<http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "resultid" .
+
+
+###  http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E
+<http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:TransitiveProperty ;
+                                                         rdfs:label "raceid" .
+
+
+###  http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx
+<http://webprotege.stanford.edu/RBG7VgxIGkGrQ1gj2Z71xIx> rdf:type owl:ObjectProperty ,
+                                                                  owl:TransitiveProperty ;
+                                                         rdfs:label "season" .
+
+
+###  http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE
+<http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:TransitiveProperty ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> ;
+                                                         rdfs:label "year" .
+
+
+###  http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW
+<http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "coordinates" .
+
+
+###  http://webprotege.stanford.edu/RBk2UBJgtpUyPql3fcZ6hmC
+<http://webprotege.stanford.edu/RBk2UBJgtpUyPql3fcZ6hmC> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "qualifying" .
+
+
+###  http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o
+<http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "constructorid" .
+
+
+###  http://webprotege.stanford.edu/RCTiaJ73vy1nm4c3JQXA4sS
+<http://webprotege.stanford.edu/RCTiaJ73vy1nm4c3JQXA4sS> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "pitstops" .
+
+
+###  http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5
+<http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:TransitiveProperty ;
+                                                         rdfs:label "country" .
+
+
+###  http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI
+<http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "driverid" .
+
+
+###  http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S
+<http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdf:type owl:InverseFunctionalProperty ;
+                                                        rdfs:label "prevQual" .
+
+
+###  http://webprotege.stanford.edu/RSxnczU8a8lsmOaesX42Ol
+<http://webprotege.stanford.edu/RSxnczU8a8lsmOaesX42Ol> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "constructorresult" .
+
+
+###  http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba
+<http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:label "circuitid" .
+
+
+###  http://webprotege.stanford.edu/RyPKZLJWV0hvuPk3Y6Qbw9
+<http://webprotege.stanford.edu/RyPKZLJWV0hvuPk3Y6Qbw9> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "driverstandings" .
+
+
+###  http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q1
+:q1 rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q2
+:q2 rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://webprotege.stanford.edu/project/BgafAssnfjOTsIu1s2Xdmi#q3
+:q3 rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1
+<http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "surname" .
+
+
+###  http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW
+<http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "positionorder" .
+
+
+###  http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE
+<http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "nationality" .
+
+
+###  http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v
+<http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "circuitid" .
+
+
+###  http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1
+<http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "milliseconds" .
+
+
+###  http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS
+<http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "rank" .
+
+
+###  http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV
+<http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:dateTimeStamp ;
+                                                         rdfs:label "fastestlaptime" .
+
+
+###  http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1
+<http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "laps" .
+
+
+###  http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn
+<http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "position" .
+
+
+###  http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc
+<http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "qualifyid" .
+
+
+###  http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2
+<http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "circuitref" .
+
+
+###  http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC
+<http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "constructorresultsid" .
+
+
+###  http://webprotege.stanford.edu/R97017vyCtoMra0ookF22II
+<http://webprotege.stanford.edu/R97017vyCtoMra0ookF22II> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "country" .
+
+
+###  http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY
+<http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "number" .
+
+
+###  http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g
+<http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "time" .
+
+
+###  http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn
+<http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "laptimeid" .
+
+
+###  http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY
+<http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "raceid" .
+
+
+###  http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf
+<http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "pitstopid" .
+
+
+###  http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp
+<http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "driverid" .
+
+
+###  http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo
+<http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "constructorref" .
+
+
+###  http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V
+<http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:label "long" .
+
+
+###  http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS
+<http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:label "countryName" .
+
+
+###  http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq
+<http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "driverref" .
+
+
+###  http://webprotege.stanford.edu/RBWv0iRO5MAuRpCiywMbz5j
+<http://webprotege.stanford.edu/RBWv0iRO5MAuRpCiywMbz5j> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "lng" .
+
+
+###  http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR
+<http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "grid" .
+
+
+###  http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l
+<http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "url" .
+
+
+###  http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4
+<http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:label "lat" .
+
+
+###  http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN
+<http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "statusid" .
+
+
+###  http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV
+<http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "dob" .
+
+
+###  http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK
+<http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:dateTimeStamp ;
+                                                         rdfs:label "fastestlap" .
+
+
+###  http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe
+<http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "driverstandingsid" .
+
+
+###  http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0
+<http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "constructorid" .
+
+
+###  http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2
+<http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "stop" .
+
+
+###  http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc
+<http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "name" .
+
+
+###  http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8
+<http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "duration" .
+
+
+###  http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF
+<http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "status" .
+
+
+###  http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB
+<http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "location" .
+
+
+###  http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC
+<http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "date" .
+
+
+###  http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ
+<http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:label "round" .
+
+
+###  http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5
+<http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "constructorstandingsid" .
+
+
+###  http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq
+<http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "code" .
+
+
+###  http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx
+<http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:range xsd:float ;
+                                                        rdfs:label "fastestlapspeed" .
+
+
+###  http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB
+<http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "resultid" .
+
+
+###  http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub
+<http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "year" .
+
+
+###  http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY
+<http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "lap" .
+
+
+###  http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL
+<http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "wins" .
+
+
+###  http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT
+<http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "forename" .
+
+
+###  http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU
+<http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:label "points" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A
+<http://webprotege.stanford.edu/R7ywDa31slpkG6MAbBkDl9A> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9XeW4jGBvQf5qTqtek5BLf> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDGsImAndlvzx8pi1uaztA2> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDVkrntSfN78ZBSRQWY3Si8> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Timing for a pitstop in race" ;
+                                                         rdfs:label "PitStops" .
+
+
+###  http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k
+<http://webprotege.stanford.edu/R86tdwIA0QfCexYWuiXoA4k> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/REJny0WgtEApzf1D4ofMe5> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Constructor results during the season" ;
+                                                         rdfs:label "ConstructorStandings" .
+
+
+###  http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T
+<http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RB11jyng1lXqP0QTuMJWzzo> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> ;
+                                                                          owl:someValuesFrom xsd:int
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ;
+                                                        rdfs:comment "Manufacturer of the car" ;
+                                                        rdfs:label "Constructor" .
+
+
+###  http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7
+<http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RejdyxFIn4XVrQEZCCEyub> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ;
+                                                         rdfs:comment "Year races are held in" ;
+                                                         rdfs:label "Season" .
+
+
+###  http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF
+<http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTimeStamp
+                                                                         ] ;
+                                                         rdfs:label "Q1" .
+
+
+###  http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q
+<http://webprotege.stanford.edu/R9AQMOzkPxMnAc82lRbnn0q> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R90Mpn7aGJ3KKZ5iLrPS4NC> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RD2RxY933KhfIsvUqKWDdN0> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Constructors per race" ;
+                                                         rdfs:label "ConstructorResults" .
+
+
+###  http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa
+<http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBPQ9KY97blSNUWFMoOWmzE> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8LKaiF6UpCcQIFGKBJ5JA7>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RaSkUr3vXcgYxjZFsepXba> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9Q9ZCZiGkyMLf0dLvgBRHY> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDnQVkKFFS146GKz0zytOpC> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDrWr5wP3uVMgOOKM1wRfiJ> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Rounds during season" ;
+                                                         rdfs:label "Race" .
+
+
+###  http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W
+<http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R0zctonp6dR8noprBJtWE1> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7kNsgnYIeYKoAKHHKFa3dE> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9zj7vMfBZ7NSsRmCvByQzp> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBTD2rgPU3eYHRXtkQ19JRq> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCMjD529ftGMFv6LinGFMlV> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RK905wk23H4COOzeEpMUkq> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RyL35KZDmoLuw1shrDuZQT> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Individual driving the car" ;
+                                                         rdfs:label "Driver" .
+
+
+###  http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe
+<http://webprotege.stanford.edu/RB9MIc6XXiTYW0sLfDTNHKe> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBauzd5SHs05ed6pUSL5KpW> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCm88jzreDEQDu8Q1qDELu5> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7lSjJuAEJOw2V1beGaD89v> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8zGxJy5IBNg0GLPJMh3Cv2> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBwvkhJp2XLP35wtWoj945l> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDOc9GjSjuLUPlWJ6C0rKwc> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDabtCUB06BnVdjickXAREB> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Where race is held" ;
+                                                         rdfs:label "Circuit" .
+
+
+###  http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2
+<http://webprotege.stanford.edu/RBiQ6OaWomCtRC8UFdYrgc2> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBGArYP4pADPTESVali2WlS> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:label "Country" .
+
+
+###  http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En
+<http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8m7hQ380cb4tIB4m4E2T7T> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7InGFcHRvYxRhoSmzjEjnW> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R80nVtLBD0PxWkcHGs2ZPiS> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8HO47Uqg6PsdZSe08W1HwV> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8NutAUPc0Aya3YrDwJ1Ts1> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTimeStamp
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RBqNywnaRfHfczJCXoaHeCR> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCc5fkozpkrS6ph7K0oBdEK> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RQEI7ApLGs73zDYFLzizMx> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RUaffc5scVgelMIOb3gzDB> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ;
+                                                         rdfs:comment "Results per race" ;
+                                                         rdfs:label "Results" .
+
+
+###  http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L
+<http://webprotege.stanford.edu/RCp7EQXT8VqvB12I8E2bC6L> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DuErCkxuW08frEGjvPiiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RClHuMQjnf5TfjPfn6QK7En>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCFpq7CQcAa1jyzj4PEcZIN> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RDYWTWh6kQkm7o7fUfRMiIF> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Key-Value for status code, mainly from results" ;
+                                                         rdfs:label "Status" .
+
+
+###  http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5
+<http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7AArZkcSwvSGBfncH3D36V> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTimeStamp
+                                                                         ] ;
+                                                         rdfs:label "Q2" .
+
+
+###  http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk
+<http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> rdf:type owl:Class ;
+                                                         rdfs:label "f1" .
+
+
+###  http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx
+<http://webprotege.stanford.edu/RCwOFzD0p2fLSGPjlbyiVdx> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7qNfJrfM8IKrNr3YtrLgH1> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9La4cATx44OyIEgtGJOAFn> ;
+                                                                           owl:someValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RsUW5U4261M3ifiHleIMaY> ;
+                                                                           owl:someValuesFrom rdfs:Literal
+                                                                         ] ;
+                                                         rdfs:comment "Time of each lap per driver, per race" ;
+                                                         rdfs:label "LapTimes" .
+
+
+###  http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46
+<http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RNGOqoLj88MOp4f0Kyqz6S> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9DEwGSVbulbYSLmIiZw60g> ;
+                                                                           owl:someValuesFrom xsd:dateTimeStamp
+                                                                         ] ;
+                                                         rdfs:label "Q3" .
+
+
+###  http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs
+<http://webprotege.stanford.edu/RJRrxkRqo8rmSJEjWgZZcs> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCr0VsMFriJtVRgXGqOZWwe> ;
+                                                                          owl:someValuesFrom xsd:int
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RvLiGssiol8YJqPGkx9EmL> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RyYu8UvCMK5XpXr5NhoexU> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ;
+                                                        rdfs:comment "Driver results during the season" ;
+                                                        rdfs:label "DriverStandings" .
+
+
+###  http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9
+<http://webprotege.stanford.edu/RQuhNC7ZX60L5e5uaBIdM9> rdf:type owl:Class ;
+                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RBEyTr5WSKJDv4v0nj7kR1V> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCEPBGorKLusGX8VdX1MgX4> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ;
+                                                        rdfs:label "Coordinates" .
+
+
+###  http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL
+<http://webprotege.stanford.edu/RxNP4R6s2wZa6YuTwvvrJL> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCsGKje1EkQz4N1UMy07qkk> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RB0sDNnTfMn6uwynpTcFm0E> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9KlPy3ziP2MbXR2HA28mPa>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RBvBTvjSiCZIyeqbsB8nJ8o> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R8FwyK75esuJUdaLyGF60T>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCnjJPstFQYXcpiCdVnyEiI> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9XuqjLqfz4B7KplTY28L2W>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :q1 ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R8tRElfFm2eOU1Qn4AergdF>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :q2 ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RCqi2lR9nt94GFg8gyd1hG5>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :q3 ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RDx5Na2wIivJSbiTh9EpT46>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R8e6nr1OxspUGzPouinAdcn> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R8pwr9p8UykUNv1NVqNdtc> ;
+                                                                          owl:someValuesFrom xsd:int
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R98a0gxXWSanaJLZ6Oz3qoY> ;
+                                                                          owl:someValuesFrom rdfs:Literal
+                                                                        ] ;
+                                                        rdfs:comment "Method for deciding the starting grid order for a race" ;
+                                                        rdfs:label "Qualifying" .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
